@@ -31,3 +31,34 @@ body {
     text-wrap: balance;
   }
 }
+
+@font-face {
+  font-family: "Clashmedium";
+  src: url("/fonts/ClashDisplay-Medium.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Clashsemibold";
+  src: url("/fonts/ClashDisplay-Semibold.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Outfit";
+  src: url("/fonts/Outfit-Light.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+body {
+  font-family: "Outfit";
+}
+.outfit {
+  font-family: "Outfit";
+}
+.semibold {
+  font-family: "Clashsemibold";
+}
+.medium {
+  font-family: "Clashmedium";
+}
