@@ -32,7 +32,7 @@ body {
   }
 }
 
-@font-face {
+/* @font-face {
   font-family: "Clashmedium";
   src: url("/fonts/ClashDisplay-Medium.woff") format("woff");
   font-weight: normal;
@@ -43,22 +43,47 @@ body {
   src: url("/fonts/ClashDisplay-Semibold.woff") format("woff");
   font-weight: normal;
   font-style: normal;
-}
+} */
 @font-face {
   font-family: "Outfit";
   src: url("/fonts/Outfit-Light.woff") format("woff");
   font-weight: normal;
   font-style: normal;
 }
-body {
+@font-face {
+  font-family: "Melodrama";
+  src: url("/fonts/Melodrama-Medium.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Melodramasemi";
+  src: url("/fonts/Melodrama-Semibold.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+* {
   font-family: "Outfit";
 }
 .outfit {
   font-family: "Outfit";
 }
 .semibold {
-  font-family: "Clashsemibold";
+  font-family: "Melodramasemi";
 }
 .medium {
-  font-family: "Clashmedium";
+  font-family: "Melodrama";
+}
+
+.blurred {
+  height: 80px;
+  backdrop-filter: blur(105px);
+  box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.233);
+  background-color: rgba(255, 255, 255, 0.096);
+  transition: background-color 0.3s ease;
+}
+.trans {
+  height: 80px;
+  transition: background-color 0.3s ease;
+  background: transparent;
 }
