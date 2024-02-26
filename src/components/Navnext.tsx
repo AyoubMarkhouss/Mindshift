@@ -52,44 +52,20 @@ export default function Navnext() {
         </NavbarBrand>
       </NavbarContent>
 
-      <NavbarContent className="hidden sm:flex gap-4 " justify="center">
+      <NavbarContent className="hidden sm:flex gap-3 " justify="center">
         <NavbarItem>
-          <Button
-            as={Link}
-            className="relative inline-flex h-12 overflow-hidden rounded-full p-[1px] focus:outline-none focus:ring-2 focus:ring-slate-400 focus:ring-offset-2 focus:ring-offset-slate-50"
-            href="#"
-            variant="flat"
-          >
-            <span className="absolute inset-[-1000%] animate-[spin_2s_linear_infinite] bg-[conic-gradient(from_90deg_at_50%_50%,#E2CBFF_0%,#393BB2_50%,#E2CBFF_100%)]" />
-            <span className="inline-flex h-full w-full cursor-pointer items-center justify-center rounded-full bg-slate-950 px-3 py-1 text-sm font-medium text-white backdrop-blur-3xl">
-              À propos
-            </span>
+          <Button as={Link} className="bg-transparent text-xl" href="#">
+            À propos
           </Button>
         </NavbarItem>
         <NavbarItem>
-          <Button
-            as={Link}
-            className="relative inline-flex h-12 overflow-hidden rounded-full p-[1px] focus:outline-none focus:ring-2 focus:ring-slate-400 focus:ring-offset-2 focus:ring-offset-slate-50"
-            href="#"
-            variant="flat"
-          >
-            <span className="absolute inset-[-1000%] animate-[spin_2s_linear_infinite] bg-[conic-gradient(from_90deg_at_50%_50%,#E2CBFF_0%,#393BB2_50%,#E2CBFF_100%)]" />
-            <span className="inline-flex h-full w-full cursor-pointer items-center justify-center rounded-full bg-slate-950 px-3 py-1 text-sm font-medium text-white backdrop-blur-3xl">
-              Services
-            </span>
+          <Button as={Link} className="bg-transparent text-xl" href="#">
+            Services
           </Button>
         </NavbarItem>
         <NavbarItem>
-          <Button
-            as={Link}
-            className="relative inline-flex h-12 overflow-hidden rounded-full p-[1px] focus:outline-none focus:ring-2 focus:ring-slate-400 focus:ring-offset-2 focus:ring-offset-slate-50"
-            href="#"
-            variant="flat"
-          >
-            <span className="absolute inset-[-1000%] animate-[spin_2s_linear_infinite] bg-[conic-gradient(from_90deg_at_50%_50%,#E2CBFF_0%,#393BB2_50%,#E2CBFF_100%)]" />
-            <span className="inline-flex h-full w-full cursor-pointer items-center justify-center rounded-full bg-slate-950 px-3 py-1 text-sm font-medium text-white backdrop-blur-3xl">
-              Blog
-            </span>
+          <Button as={Link} className="bg-transparent text-xl" href="#">
+            Blog
           </Button>
         </NavbarItem>
       </NavbarContent>
