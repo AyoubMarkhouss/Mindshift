@@ -46,7 +46,9 @@ export default function Navnext() {
           className="sm:hidden"
         />
         <NavbarBrand>
-          <p className="font-bold text-inherit">MINDSHIFT</p>
+          <p className="semibold sm:text-2xl text-xl  text-inherit">
+            MINDSHIFT
+          </p>
         </NavbarBrand>
       </NavbarContent>
 
@@ -60,7 +62,7 @@ export default function Navnext() {
           >
             <span className="absolute inset-[-1000%] animate-[spin_2s_linear_infinite] bg-[conic-gradient(from_90deg_at_50%_50%,#E2CBFF_0%,#393BB2_50%,#E2CBFF_100%)]" />
             <span className="inline-flex h-full w-full cursor-pointer items-center justify-center rounded-full bg-slate-950 px-3 py-1 text-sm font-medium text-white backdrop-blur-3xl">
-              Home
+              À propos
             </span>
           </Button>
         </NavbarItem>
@@ -100,8 +102,8 @@ export default function Navnext() {
             variant="flat"
           >
             <span className="absolute inset-[-1000%] animate-[spin_2s_linear_infinite] bg-[conic-gradient(from_90deg_at_50%_50%,#E2CBFF_0%,#393BB2_50%,#E2CBFF_100%)]" />
-            <span className="inline-flex h-full w-full cursor-pointer items-center justify-center rounded-full bg-slate-950 px-3 py-1 text-sm font-medium text-white backdrop-blur-3xl">
-              Contact me
+            <span className="inline-flex h-full w-full cursor-pointer items-center justify-center rounded-full bg-orange px-3 py-1 text-sm font-medium text-white backdrop-blur-3xl">
+              Contact
             </span>
           </Button>
         </NavbarItem>
