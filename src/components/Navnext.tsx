@@ -14,7 +14,7 @@ import {
 export default function Navnext() {
   const [isMenuOpen, setIsMenuOpen] = React.useState(false);
 
-  const menuItems = ["Home", "Services", "Blog", "Contact"];
+  const menuItems = ["À propos", "Services", "Expertises", "Blog", "Contact"];
 
   const [navbarBlur, setNavbarBlur] = useState(false);
 
