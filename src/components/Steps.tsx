@@ -203,8 +203,8 @@ const Steps = () => {
           <Image
             about="zz"
             className="inset-0 object-cover object-bottom w-full rounded shadow-lg h-80 lg:absolute lg:h-96"
-            src="https://images.pexels.com/photos/3184287/pexels-photo-3184287.jpeg?auto=compress&amp;cs=tinysrgb&amp;dpr=2&amp;h=750&amp;w=1260"
             alt=""
+            src="/ppl.jpeg"
           />
         </div>
       </div>
