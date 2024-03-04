@@ -14,7 +14,14 @@ import {
 export default function Navnext() {
   const [isMenuOpen, setIsMenuOpen] = React.useState(false);
 
-  const menuItems = ["À propos", "Services", "Expertises", "Blog", "Contact"];
+  // const menuItems = ["À propos", "Services", "Expertises", "Blog", "Contact"];
+  const menuItems = [
+    { label: "À propos", link: "/" },
+    { label: "Services", link: "services" },
+    { label: "Expertises", link: "expertises" },
+    { label: "Blog", link: "blog" },
+    { label: "Contact", link: "contact" },
+  ];
 
   const [navbarBlur, setNavbarBlur] = useState(false);
 
@@ -94,10 +101,14 @@ export default function Navnext() {
         </NavbarItem>
       </NavbarContent>
       <NavbarMenu className="bg-black/30 backdrop-blur-md">
-        {menuItems.map((item, index) => (
-          <NavbarMenuItem key={`${item}-${index}`}>
-            <Link className="w-full text-white text-xl pt-3" href="#" size="lg">
-              {item}
+        {menuItems.map((item) => (
+          <NavbarMenuItem key={item.label}>
+            <Link
+              className="medium w-full  text-black text-3xl pt-5"
+              href={item.link}
+              size="lg"
+            >
+              {item.label}{" "}
             </Link>
           </NavbarMenuItem>
         ))}
