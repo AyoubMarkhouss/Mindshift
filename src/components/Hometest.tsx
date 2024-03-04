@@ -9,6 +9,8 @@ import Image from "next/image";
 import { Cardwhy } from "./cardwhy";
 import Flower2 from "./icons/Flower2";
 import Flower from "./icons/Flower";
+import { Faq } from "./Faq";
+
 
 const Hometest = () => {
   return (
@@ -60,8 +62,8 @@ const Hometest = () => {
           </div>
 
           <div className="relative mt-10  md:mt-14  py-16 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8 lg:py-20">
-            <Flower2 className="hidden lg:block z-30 absolute w-44 h-44 top-7 right-1" />
-            <Flower className="hidden lg:block z-20 absolute w-44 h-44 bottom-0 left-0" />
+            {/* <Flower2 className="hidden lg:block z-30 absolute w-44 h-44 top-7 right-1" />
+            <Flower className="hidden lg:block z-20 absolute w-44 h-44 bottom-0 left-0" /> */}
             <div className="flex flex-col shadow-xl shadow-gray-400 max-w-screen-lg overflow-hidden bg-white border rounded-[100px] lg:flex-row sm:mx-auto">
               <div className="relative lg:w-1/2">
                 <Image
@@ -204,9 +206,10 @@ const Hometest = () => {
             </div>
           </div>
 
-          <div className="relative px-4 py-16 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8 lg:py-20"></div>
-
-          <Cardwhy />
+          <div className="relative px-4 py-16 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8 lg:py-20">
+            <Cardwhy />
+          </div>
+         <Faq/> 
         </div>
       </TracingBeam>
     </>

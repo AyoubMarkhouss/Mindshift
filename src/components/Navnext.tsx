@@ -54,13 +54,22 @@ export default function Navnext() {
 
       <NavbarContent className="hidden sm:flex gap-3 " justify="center">
         <NavbarItem>
-          <Button as={Link} className="bg-transparent text-xl" href="#">
+          <Button as={Link} className="bg-transparent text-xl" href="/">
             À propos
           </Button>
         </NavbarItem>
         <NavbarItem>
-          <Button as={Link} className="bg-transparent text-xl" href="#">
+          <Button as={Link} className="bg-transparent text-xl" href="services">
             Services
+          </Button>
+        </NavbarItem>
+        <NavbarItem>
+          <Button
+            as={Link}
+            className="bg-transparent text-xl"
+            href="expertises"
+          >
+            Expertises
           </Button>
         </NavbarItem>
         <NavbarItem>
@@ -74,7 +83,7 @@ export default function Navnext() {
           <Button
             as={Link}
             className="relative inline-flex h-12 overflow-hidden rounded-full p-[1px] focus:outline-none focus:ring-2 focus:ring-slate-400 focus:ring-offset-2 focus:ring-offset-slate-50"
-            href="#"
+            href="contact"
             variant="flat"
           >
             <span className="absolute inset-[-1000%] animate-[spin_2s_linear_infinite] bg-[conic-gradient(from_90deg_at_50%_50%,#E2CBFF_0%,#393BB2_50%,#E2CBFF_100%)]" />
