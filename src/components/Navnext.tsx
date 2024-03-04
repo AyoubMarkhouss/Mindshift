@@ -17,10 +17,10 @@ export default function Navnext() {
   // const menuItems = ["À propos", "Services", "Expertises", "Blog", "Contact"];
   const menuItems = [
     { label: "À propos", link: "/" },
-    { label: "Services", link: "services" },
-    { label: "Expertises", link: "expertises" },
-    { label: "Blog", link: "blog" },
-    { label: "Contact", link: "contact" },
+    { label: "Services", link: "/services" },
+    { label: "Expertises", link: "/expertises" },
+    { label: "Blog", link: "#" },
+    { label: "Contact", link: "/contact" },
   ];
 
   const [navbarBlur, setNavbarBlur] = useState(false);
@@ -108,7 +108,7 @@ export default function Navnext() {
               href={item.link}
               size="lg"
             >
-              {item.label}{" "}
+              {item.label}
             </Link>
           </NavbarMenuItem>
         ))}
