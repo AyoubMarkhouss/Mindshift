@@ -1,12 +1,11 @@
-import React from "react";
 import Link from "next/link";
 import emailjs from "@emailjs/browser";
-import { useRef } from "react";
+import React, { useRef } from "react";
 import { ToastContainer, toast } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
 import Letter from "@/components/icons/Letter";
 
-const contact: React.FC = () => {
+const Contact: React.FC = () => {
   const form = useRef(null);
   const sendmail = (e: any) => {
     e.preventDefault();
@@ -214,4 +213,4 @@ const contact: React.FC = () => {
     </div>
   );
 };
-export default contact;
+export default Contact;
