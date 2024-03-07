@@ -201,6 +201,8 @@ const Steps = () => {
         </div>
         <div className="relative md:mt-10">
           <Image
+            width={1000}
+            height={1000}
             about="zz"
             className="inset-0 object-cover object-bottom w-full rounded shadow-lg h-80 lg:absolute lg:h-96"
             alt=""

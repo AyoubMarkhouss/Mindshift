@@ -1,9 +1,15 @@
 import React, { useState } from "react";
 
-const Item = ({ title, children }:{title:string, children:React.ReactNode}) => {
+const Item = ({
+  title,
+  children,
+}: {
+  title: string;
+  children: React.ReactNode;
+}) => {
   const [isOpen, setIsOpen] = useState(false);
   return (
-    <div className="border-b-1 text-black border-gray-500 bg-slate-50/30 backdrop-blur-md shadow-yellow-200 shadow-2xl rounded-[30px]">
+    <div className="border-b-1 text-black border-gray-500 bg-slate-50/30 backdrop-blur-md shadow-yellow-100 shadow-2xl rounded-[30px]">
       <button
         type="button"
         aria-label="Open item"

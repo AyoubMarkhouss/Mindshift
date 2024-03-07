@@ -10,7 +10,7 @@ import { Cardwhy } from "./cardwhy";
 import Flower2 from "./icons/Flower2";
 import Flower from "./icons/Flower";
 import { Faq } from "./Faq";
-
+import MultipleItems from "./Carousel";
 
 const Hometest = () => {
   return (
@@ -209,7 +209,12 @@ const Hometest = () => {
           <div className="relative px-4 py-16 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8 lg:py-20">
             <Cardwhy />
           </div>
-         <Faq/> 
+          <div>
+            <MultipleItems />
+          </div>
+          <div className="pt-10">
+            <Faq />
+          </div>
         </div>
       </TracingBeam>
     </>

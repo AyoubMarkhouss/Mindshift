@@ -113,7 +113,7 @@ const Contact: React.FC = () => {
                 </svg>
 
                 <span className="mx-2 text-gray-600 truncate w-72 ">
-                  Mindshift@contact.com
+                  Hibenalla@gmail.com
                 </span>
               </p>
             </div>
