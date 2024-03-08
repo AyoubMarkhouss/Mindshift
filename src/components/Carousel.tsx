@@ -34,8 +34,8 @@ function MultipleItems() {
     slidesToShow: 3,
     slidesToScroll: 1,
     autoplay: true,
-    speed: 2000,
-    autoplaySpeed: 4000,
+    speed: 1500,
+    autoplaySpeed: 3000,
     cssEase: "linear",
     // nextArrow: <SampleNextArrow />,
     // prevArrow: <SamplePrevArrow />,
@@ -68,14 +68,14 @@ function MultipleItems() {
     ],
   };
   return (
-    <div className="slider-container">
+    <div className="slider-container ">
       <Slider {...settings}>
-        <div className="w-full max-w-md px-8 py-4 mt-16 bg-white rounded-lg shadow-lg dark:bg-gray-800">
+        <div className="w-full px-8 py-10 mt-16 bg-transparent  rounded-2xl border-1 border-black shadow-xl ">
           <div className="flex justify-center -mt-16 md:justify-end">
             <Image
               width={1000}
               height={1000}
-              className="object-cover w-20 h-20 border-2 border-blue-500 rounded-full dark:border-blue-400"
+              className="object-cover w-20 h-20 border-2 border-black rounded-full "
               alt="Testimonial avatar"
               src="/brain.png"
             />
@@ -102,12 +102,12 @@ function MultipleItems() {
             </Link>
           </div>
         </div>
-        <div className="w-full max-w-md px-8 py-4 mt-16 bg-white rounded-lg shadow-lg dark:bg-gray-800">
+        <div className="w-full px-8 py-10 mt-16 bg-transparent  rounded-2xl border-1 border-black shadow-xl ">
           <div className="flex justify-center -mt-16 md:justify-end">
             <Image
               width={1000}
               height={1000}
-              className="object-cover w-20 h-20 border-2 border-blue-500 rounded-full dark:border-blue-400"
+              className="object-cover w-20 h-20 border-2 border-black rounded-full "
               alt="Testimonial avatar"
               src="/brain.png"
             />
@@ -134,12 +134,12 @@ function MultipleItems() {
             </Link>
           </div>
         </div>
-        <div className="w-full max-w-md px-8 py-4 mt-16 bg-white rounded-lg shadow-lg dark:bg-gray-800">
+        <div className="w-full px-8 py-10 mt-16 bg-transparent  rounded-2xl border-1 border-black shadow-xl ">
           <div className="flex justify-center -mt-16 md:justify-end">
             <Image
               width={1000}
               height={1000}
-              className="object-cover w-20 h-20 border-2 border-blue-500 rounded-full dark:border-blue-400"
+              className="object-cover w-20 h-20 border-2 border-black rounded-full "
               alt="Testimonial avatar"
               src="/brain.png"
             />
