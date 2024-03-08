@@ -80,7 +80,7 @@ export default function Navnext() {
           </Button>
         </NavbarItem>
         <NavbarItem>
-          <Button as={Link} className="bg-transparent text-xl" href="#">
+          <Button as={Link} className="bg-transparent text-xl" href="/blog">
             Blog
           </Button>
         </NavbarItem>

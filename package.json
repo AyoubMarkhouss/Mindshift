@@ -11,6 +11,7 @@
   "dependencies": {
     "@emailjs/browser": "^4.2.0",
     "@nextui-org/react": "^2.2.9",
+    "@tabler/icons-react": "^2.47.0",
     "clsx": "^2.1.0",
     "embla-carousel-auto-scroll": "^8.0.0",
     "embla-carousel-autoplay": "^8.0.0",

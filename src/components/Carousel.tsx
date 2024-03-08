@@ -6,7 +6,7 @@ import Image from "next/image";
 import Link from "next/link";
 import style from "styled-jsx/style";
 
-// function SampleNextArrow(props) {
+// function SampleNextArrow({props}:any) {
 //   const { className, style, onClick } = props;
 //   return (
 //     <div
@@ -17,7 +17,7 @@ import style from "styled-jsx/style";
 //   );
 // }
 
-// function SamplePrevArrow(props) {
+// function SamplePrevArrow({props}:any) {
 //   const { className, style, onClick } = props;
 //   return (
 //     <div
