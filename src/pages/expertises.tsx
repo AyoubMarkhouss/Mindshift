@@ -154,7 +154,7 @@ const expertises = () => {
                       </p> */}
                       <p className="text-sm md:text-medium text-justify text-gray-700">
                         A flower in my garden, a mystery in my panties. Heart
-                        attack never stopped old Big Bear. I didn't even know we
+                        attack never stopped old Big Bear. I didnt even know we
                         were calling him Big Bear. All recipes are written using
                         certain conventions, which define the characteristics of
                         common ingredients. The rules vary from place to place.
@@ -297,7 +297,7 @@ const expertises = () => {
                       </p> */}
                       <p className="text-sm md:text-medium text-justify text-gray-700">
                         A flower in my garden, a mystery in my panties. Heart
-                        attack never stopped old Big Bear. I didn't even know we
+                        attack never stopped old Big Bear. I didnt even know we
                         were calling him Big Bear. All recipes are written using
                         certain conventions, which define the characteristics of
                         common ingredients. The rules vary from place to place.
