@@ -15,17 +15,19 @@ export function Service3() {
           </h3>
           <div className="text-base !m-0 !p-0 font-normal">
             <span className="text-slate-500 ">
-              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolor
-              totam excepturi facilis itaque corporis suscipit consequatur
-              numquam eligendi explicabo nesciunt accusamus inventore, cumque
-              cupiditate, ad nisi voluptatum laboriosam laborum dignissimos.orem
-              ipsum dolor, sit amet consectetur adipisicing elit. Dolor totam
-              excepturi facilis itaque corporis suscipit consequatur numquam
-              eligendi explicabo nesciunt accusamus inventor.
+              Pour un changement en douceur et continu, l&apos;abonnement mensuel est
+              ta clé vers une transformation constante. Chaque mois, nous nous
+              retrouvons lors d&apos;une séance d&apos;1h30 en visio pour explorer tes
+              défis actuels, ajuster tes objectifs, et maintenir une dynamique
+              positive. Avec un suivi régulier entre les sessions via WhatsApp,
+              cet abonnement te garantit un soutien constant tout au long de ton
+              parcours. Et en prime, la première séance bilan est gratuite. Prêt
+              à faire de chaque mois une étape significative vers le changement
+              positif ?
             </span>
           </div>
 
-          <h1 className="medium text-xl text-black ">Prix : 2300 Dhs</h1>
+          <h1 className="medium text-xl text-black ">Prix : 55 euros</h1>
         </div>
       </PinContainer>
     </div>

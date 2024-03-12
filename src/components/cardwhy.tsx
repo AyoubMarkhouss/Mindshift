@@ -23,20 +23,17 @@ export function Cardwhy() {
           translateZ="60"
           className="text-neutral-500 text-justify text-sm md:text-lg w-full mt-2 dark:text-neutral-300"
         >
-          Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ex, ab illo.
-          Atque, soluta provident. Maiores aspernatur tenetur hic voluptas quo,
-          a reiciendis, magnam, aperiam assumenda vel asperiores ducimus
-          obcaecati blanditiis? Lorem ipsum dolor, sit amet consectetur
-          adipisicing elit. Ex, ab illo. Atque, soluta provident. Maiores
-          aspernatur tenetur hic voluptas quo, a reiciendis, magnam, aperiam
-          assumenda vel asperiores ducimus obcaecati blanditiis? Lorem ipsum
-          dolor, sit amet consectetur adipisicing elit. Ex, ab illo. Atque,
-          soluta provident. Maiores aspernatur tenetur hic voluptas quo, a
-          reiciendis, magnam, aperiam assumenda vel asperiores ducimus obcaecati
-          blanditiis? Lorem ipsum dolor, sit amet consectetur adipisicing elit.
-          Ex, ab illo. Atque, soluta provident. Maiores aspernatur tenetur hic
-          voluptas quo, a reiciendis, magnam, aperiam assumenda vel asperiores
-          ducimus obcaecati blanditiis?
+          Si tu ressens cette envie de progresser dans ta vie, que ce soit sur
+          le plan sportif, professionnel ou personnel, tu sais peut-être déjà ce
+          que c&apos;est que de buter contre des obstacles. Que ce soit le doute, le
+          manque de discipline, la confiance en toi qui s&apos;ébranle, ou la peur de
+          l&apos;échec, ces barrières peuvent sembler insurmontables. Je ne suis pas
+          là pour te livrer un discours préfabriqué, mais pour t&apos;accompagner
+          concrètement vers une version plus affirmée de toi-même. Inutile de se
+          prendre la tête, ensemble, nous allons travailler sur ces obstacles.
+          En réservant un coaching, tu t&apos;engages dans une démarche pratique, une
+          exploration qui te mènera vers une réalisation personnelle et
+          professionnelle authentique.
         </CardItem>
       </CardBody>
     </CardContainer>

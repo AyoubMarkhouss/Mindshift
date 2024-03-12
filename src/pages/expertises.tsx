@@ -35,7 +35,7 @@ const expertises = () => {
                 <Button
                   as={Link}
                   className="relative shadow-2xl shadow-slate-700 inline-flex h-12 overflow-hidden rounded-full p-[1px] focus:outline-none focus:ring-2 focus:ring-slate-400 focus:ring-offset-2 focus:ring-offset-slate-50"
-                  href="#"
+                  href="/contact"
                   variant="flat"
                 >
                   <span className="absolute inset-[-1000%] animate-[spin_2s_linear_infinite] bg-[conic-gradient(from_90deg_at_50%_50%,#E2CBFF_0%,#393BB2_50%,#E2CBFF_100%)]" />
@@ -80,18 +80,17 @@ const expertises = () => {
             </div>
             <div className="col-span-8 md:pt-10 md:col-span-4 sm:gap-6 flex flex-col z-30">
               <p className="outfit mb-6 text-lg text-justify sm:text-start text-gray-700 pr-1">
-                Sed ut perspiciatis unde omnis iste natus error sit voluptatem
-                accusantium doloremque laudantium, totam rem aperiam, eaque ipsa
-                quae explicabo. Sed ut perspiciatis unde omnis iste natus error
-                sit voluptatem totam rem aperiam, eaque ipsa quae explicabo.Sed
-                ut perspiciatis unde omnis iste natus error sit voluptatem
-                accusantium doloremque laudantium, totam rem aperiam, eaque ipsa
-                quae explicabo. Sed ut perspiciatis unde omnis iste natus error
-                sit voluptatem totam rem aperiam, eaque ipsa quae explicabo.Sed
-                ut perspiciatis unde omnis iste natus error sit voluptatem
-                accusantium doloremque laudantium, totam rem aperiam, eaque ipsa
-                quae explicabo. Sed ut perspiciatis unde omnis iste natus error
-                sit voluptatem totam rem aperiam, eaque ipsa quae explicabo.
+                La PNL, c&apos;est bien plus qu&apos;une simple discipline,
+                c&apos;est un sésame pour débloquer la porte de ta
+                transformation personnelle. En tant que coach certifiée en PNL,
+                je m&apos;appuie sur cette approche puissante pour
+                t&apos;accompagner pleinement dans ton évolution. On explore la
+                relation entre le langage, le comportement et les schémas
+                cognitifs pour comprendre profondément tes processus mentaux.
+                Ensemble, on va utiliser cette méthode pour dénicher les
+                obstacles qui peuvent te freiner, puis reprogrammer ton cerveau
+                vers des schémas mentaux positifs afin d&apos;atteindre tes
+                objectifs les plus profonds.
               </p>
             </div>
           </div>
@@ -127,12 +126,9 @@ const expertises = () => {
                         Read the recipe
                       </p> */}
                       <p className="text-sm md:text-medium text-justify text-gray-700">
-                        All recipes are written using certain conventions, which
-                        define the characteristics of common ingredients. The
-                        rules vary from place to place.All recipes are written
-                        using certain conventions, which define the
-                        characteristics of common ingredients. The rules vary
-                        from place to place.
+                        Grâce à la PNL, tu développeras des compétences en
+                        communication exceptionnelles, t&apos;aidant à établir
+                        des relations sociales plus profondes et significatives.
                       </p>
                     </div>
                   </div>
@@ -153,11 +149,9 @@ const expertises = () => {
                         Heart attack
                       </p> */}
                       <p className="text-sm md:text-medium text-justify text-gray-700">
-                        A flower in my garden, a mystery in my panties. Heart
-                        attack never stopped old Big Bear. I didnt even know we
-                        were calling him Big Bear. All recipes are written using
-                        certain conventions, which define the characteristics of
-                        common ingredients. The rules vary from place to place.
+                        La PNL te permet de mieux comprendre tes pensées et
+                        émotions, favorisant une relation positive avec toi-même
+                        et renforçant l&apos;estime de soi.
                       </p>
                     </div>
                   </div>
@@ -178,12 +172,10 @@ const expertises = () => {
                         Never stop
                       </p> */}
                       <p className="text-sm md:text-medium text-justify text-gray-700">
-                        The first mate and his Skipper too will do their very
-                        best to make the others comfortable in their tropic
-                        island nest. Michael Knight a young loner.All recipes
-                        are written using certain conventions, which define the
-                        characteristics of common ingredients. The rules vary
-                        from place to place.
+                        En identifiant et en remodelant les schémas mentaux
+                        négatifs, la PNL te conduit vers une confiance en toi
+                        solide et durable, t&apos;encourageant à relever avec
+                        assurance les défis de la vie.
                       </p>
                     </div>
                   </div>
@@ -192,7 +184,7 @@ const expertises = () => {
                   <Button
                     as={Link}
                     className="relative  inline-flex h-12 overflow-hidden rounded-full p-[1px] focus:outline-none focus:ring-2 focus:ring-slate-400 focus:ring-offset-2 focus:ring-offset-slate-50"
-                    href="#"
+                    href="/contact"
                     variant="flat"
                   >
                     <span className="absolute inset-[-1000%] animate-[spin_2s_linear_infinite] bg-[conic-gradient(from_90deg_at_50%_50%,#E2CBFF_0%,#393BB2_50%,#E2CBFF_100%)]" />
@@ -214,18 +206,17 @@ const expertises = () => {
 
             <div className="col-span-8 md:pt-10 md:col-span-4 sm:gap-6 flex flex-col z-30">
               <p className="outfit mb-6 text-lg text-start text-gray-700">
-                Sed ut perspiciatis unde omnis iste natus error sit voluptatem
-                accusantium doloremque laudantium, totam rem aperiam, eaque ipsa
-                quae explicabo. Sed ut perspiciatis unde omnis iste natus error
-                sit voluptatem totam rem aperiam, eaque ipsa quae explicabo.Sed
-                ut perspiciatis unde omnis iste natus error sit voluptatem
-                accusantium doloremque laudantium, totam rem aperiam, eaque ipsa
-                quae explicabo. Sed ut perspiciatis unde omnis iste natus error
-                sit voluptatem totam rem aperiam, eaque ipsa quae explicabo.Sed
-                ut perspiciatis unde omnis iste natus error sit voluptatem
-                accusantium doloremque laudantium, totam rem aperiam, eaque ipsa
-                quae explicabo. Sed ut perspiciatis unde omnis iste natus error
-                sit voluptatem totam rem aperiam, eaque ipsa quae explicabo.
+                L&apos;intelligence émotionnelle, mesurée par le Quotient
+                Emotionnel (QE). C&apos;est un outil essentiel pour cultiver une
+                vie épanouissante. En tant que coach spécialisée, mon engagement
+                profond, c&apos;est de t&apos;accompagner dans la compréhension
+                et la gestion de tes émotions, créant ainsi un équilibre
+                émotionnel solide et durable. Grâce à cette expertise, tu vas
+                développer la capacité de prendre des décisions éclairées, de
+                favoriser des relations interpersonnelles épanouissantes, et de
+                vivre une vie plus saine et gratifiante. En embrassant
+                pleinement ton intelligence émotionnelle, nous tricotons
+                ensemble le fil d&apos;une existence plus riche et équilibrée
               </p>
             </div>
             <div className="col-span-8 md:col-span-4 md:pl-12 z-30">
@@ -270,12 +261,10 @@ const expertises = () => {
                         Read the recipe
                       </p> */}
                       <p className="text-sm md:text-medium text-justify text-gray-700">
-                        All recipes are written using certain conventions, which
-                        define the characteristics of common ingredients. The
-                        rules vary from place to place.All recipes are written
-                        using certain conventions, which define the
-                        characteristics of common ingredients. The rules vary
-                        from place to place.
+                        En développant ton intelligence émotionnelle, tu
+                        affineras ta capacité à comprendre et à réagir aux
+                        émotions des autres, favorisant des relations plus
+                        harmonieuses
                       </p>
                     </div>
                   </div>
@@ -296,11 +285,10 @@ const expertises = () => {
                         Heart attack
                       </p> */}
                       <p className="text-sm md:text-medium text-justify text-gray-700">
-                        A flower in my garden, a mystery in my panties. Heart
-                        attack never stopped old Big Bear. I didnt even know we
-                        were calling him Big Bear. All recipes are written using
-                        certain conventions, which define the characteristics of
-                        common ingredients. The rules vary from place to place.
+                        L&apos;intelligence émotionnelle t&apos;aidera à mieux
+                        gérer tes émotions internes, renforçant ainsi une
+                        connexion positive avec toi-même et améliorant
+                        l&apos;estime personnelle.
                       </p>
                     </div>
                   </div>
@@ -321,12 +309,10 @@ const expertises = () => {
                         Never stop
                       </p> */}
                       <p className="text-sm md:text-medium text-justify text-gray-700">
-                        The first mate and his Skipper too will do their very
-                        best to make the others comfortable in their tropic
-                        island nest. Michael Knight a young loner.All recipes
-                        are written using certain conventions, which define the
-                        characteristics of common ingredients. The rules vary
-                        from place to place.
+                        En comprenant et en canalisant efficacement tes
+                        émotions, tu développeras une vision claire de tes
+                        objectifs, te donnant la force émotionnelle nécessaire
+                        pour les atteindre avec succès
                       </p>
                     </div>
                   </div>
@@ -335,7 +321,7 @@ const expertises = () => {
                   <Button
                     as={Link}
                     className="relative inline-flex h-12 overflow-hidden rounded-full p-[1px] focus:outline-none focus:ring-2 focus:ring-slate-400 focus:ring-offset-2 focus:ring-offset-slate-50"
-                    href="#"
+                    href="/contact"
                     variant="flat"
                   >
                     <span className="absolute inset-[-1000%] animate-[spin_2s_linear_infinite] bg-[conic-gradient(from_90deg_at_50%_50%,#E2CBFF_0%,#393BB2_50%,#E2CBFF_100%)]" />

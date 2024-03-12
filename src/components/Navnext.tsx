@@ -10,6 +10,7 @@ import {
   Link,
   Button,
 } from "@nextui-org/react";
+import Image from "next/image";
 
 export default function Navnext() {
   const [isMenuOpen, setIsMenuOpen] = React.useState(false);
@@ -19,7 +20,7 @@ export default function Navnext() {
     { label: "À propos", link: "/" },
     { label: "Services", link: "/services" },
     { label: "Expertises", link: "/expertises" },
-    { label: "Blog", link: "#" },
+    { label: "Blog", link: "/blog" },
     { label: "Contact", link: "/contact" },
   ];
 
@@ -56,6 +57,7 @@ export default function Navnext() {
           <p className="semibold sm:text-2xl text-xl  text-inherit">
             MINDSHIFT
           </p>
+          
         </NavbarBrand>
       </NavbarContent>
 

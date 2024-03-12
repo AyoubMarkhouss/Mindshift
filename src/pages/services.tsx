@@ -61,13 +61,13 @@ const services = () => {
           </div>
 
           <div className="grid md:pt-12 grid-cols-1 md:grid-cols-2 w-full">
-            <div className="col-span-1">
+            <div className="col-span-1 pt-5 sm:pt-0">
               <Service1 />
             </div>
-            <div className="col-span-1">
+            <div className="col-span-1 pt-10 sm:pt-0">
               <Service3 />
             </div>
-            <div className="col-span-1 md:col-span-2">
+            <div className="col-span-1 md:col-span-2 pt-20 pb-10 sm:pt-0 sm:pb-0">
               <Service2 />
             </div>
           </div>

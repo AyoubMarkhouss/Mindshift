@@ -80,21 +80,25 @@ const Hometest = () => {
                     Qui suis-je ?
                   </p>
                 </div>
-                <h5 className="medium mb-3 text-4xl text-black font-extrabold leading-none sm:text-5xl">
-                  Je suis Hiba ..
+                <h5 className="medium mb-3 text-3xl text-black font-extrabold leading-none sm:text-4xl">
+                  Bienvenue sur Mindshift,
                 </h5>
                 <p className="mb-5 text-gray-800 text-justify">
-                  <span className="font-bold">Lorem ipsum</span> dolor sit amet,
-                  consectetur adipiscing elit. Etiam sem neque, molestie sit
-                  amet venenatis et, dignissim ut erat. Sed aliquet velit id dui
-                  eleifend, sed consequat odio sollicitudin.Lorem ipsum Lorem
-                  ipsumdolor sit amet, consectetur adipiscing elit. Etiam sem
-                  neque, molestie sit amet venenatis et, dignissim ut erat. Sed
-                  aliquet velit id dui eleifend, sed consequat odio
-                  sollicitudin. dolor sit amet, consectetur adipiscing elit.
-                  Etiam sem neque, molestie sit amet venenatis et, dignissim ut
-                  erat. Sed aliquet velit id dui eleifend, sed consequat odio
-                  sollicitudin.
+                  l&apos;endroit où on entame ensemble ton parcours vers le
+                  changement positif ! Je suis coach et formatrice, doublement
+                  certifiée et super enthousiaste de t&apos;accompagner dans ta
+                  transformation personnelle et professionnelle. J&apos;ai déjà
+                  consacré des centaines d&apos;heures de coaching à aider des
+                  personnes comme toi à surmonter des obstacles, à repousser
+                  leurs limites et à instaurer des changements durables dans
+                  leur vie. C&apos;est une expérience passionnante et
+                  enrichissante, et j&apos;ai hâte de mettre cette expertise à
+                  ta disposition. Mon approche est centrée sur toi. On va
+                  explorer tes points forts, identifier où on peut booster un
+                  peu, et je vais te fournir des outils concrets pour
+                  t&apos;aider à réaliser tes aspirations. À chaque séance de
+                  coaching, c&apos;est l&apos;occasion de réflexion, de
+                  croissance et de prises de conscience perso.
                 </p>
               </div>
             </div>
@@ -108,16 +112,22 @@ const Hometest = () => {
                     Qu&apos;est-ce que je t&apos;apporte ?
                   </h2>
                   <p className="text-base text-gray-800 md:text-lg pt-4">
-                    Sed ut perspiciatis unde omnis iste natus error sit
-                    voluptatem accusantium doloremque laudantium, totam rem
-                    aperiam, eaque ipsa quae. explicabo. Sed ut perspiciatis
-                    unde omnis iste natus error sit voluptatem accusantium
-                    doloremque laudantium, totam rem aperiam, eaque ipsa quae.
-                    explicabo. Sed ut perspiciatis unde omnis iste natus error
-                    sit voluptatem accusantium doloremque laudantium, totam rem
-                    aperiam, eaque ipsa quae. explicabo.Sed ut perspiciatis unde
-                    omnis iste natus error sit voluptatem accusantium doloremque
-                    laudantium, totam rem aperiam, eaque ipsa
+                    Sur Mindshift, je suis là pour te fournir des outils
+                    pratiques et une clarté qui résonnent avec qui tu es
+                    vraiment. Grâce à des techniques issues de la PNL et de
+                    l&apos;intelligence émotionnelle, tu découvriras comment
+                    gérer le quotidien avec plus de confiance et
+                    d&apos;authenticité. En travaillant ensemble, nous
+                    alignerons tes aspirations avec tes actions, te permettant
+                    de repartir avec un plan concret et des compétences que tu
+                    pourras utiliser dans toutes les facettes de ta vie. Mon
+                    engagement ne se limite pas à nos sessions ; je suis là pour
+                    t&apos;offrir un soutien continu. À la fin de notre
+                    parcours, tu auras non seulement élargi ta compréhension de
+                    toi-même, mais aussi acquis des outils tangibles pour
+                    naviguer plus sereinement dans ta vie quotidienne. Prêt à
+                    faire ce voyage de transformation ? Let&apos;s make the
+                    shift!
                   </p>
                 </div>
               </div>
@@ -163,10 +173,10 @@ const Hometest = () => {
               <h2 className="semibold max-w-lg mb-6 text-5xl leading-none tracking-tight text-black sm:text-6xl md:mx-auto">
                 Comment ?
               </h2>
-              <p className="text-base text-gray-400 md:text-lg">
+              {/* <p className="text-base text-gray-400 md:text-lg">
                 Sed ut perspiciatis unde omnis iste natus error sit voluptatem
                 accusantium doloremque rem aperiam, eaque ipsa quae.
-              </p>
+              </p> */}
             </div>
 
             <div className=" grid max-w-md gap-10 sm:mx-auto lg:max-w-full lg:grid-cols-3">

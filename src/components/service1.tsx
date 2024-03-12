@@ -9,23 +9,24 @@ export function Service1() {
         title="Je réserve mon 1er call gratuit"
         href="https://twitter.com/mannupaaji"
       >
-        <div className="flex gap-4 basis-full flex-col mx-auto p-4 tracking-tight text-slate-100/50 sm:basis-1/2 w-80 md:w-[25rem] min-h-[20rem] ">
+        <div className="flex gap-7 basis-full flex-col mx-auto p-4 tracking-tight text-slate-100/50 sm:basis-1/2 w-80 md:w-[25rem] min-h-[20rem] ">
           <h3 className="medium max-w-md text-4xl !pb-2 !m-0  text-black">
             Les séances à la carte
           </h3>
           <div className="text-base !m-0 !p-0 font-normal">
             <span className="text-slate-500 ">
-              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolor
-              totam excepturi facilis itaque corporis suscipit consequatur
-              numquam eligendi explicabo nesciunt accusamus inventore, cumque
-              cupiditate, ad nisi voluptatum laboriosam laborum dignissimos.orem
-              ipsum dolor, sit amet consectetur adipisicing elit. Dolor totam
-              excepturi facilis itaque corporis suscipit consequatur numquam
-              eligendi explicabo nesciunt accusamus inventor.
+              Si tu cherches une intervention ponctuelle, ma séance unique offre
+              une solution rapide et ciblée. Cette session d&apos;1h30 en visio
+              te permet de concentrer ton énergie sur un besoin spécifique. Que
+              ce soit pour dépasser un obstacle, clarifier une situation ou
+              obtenir des conseils pratiques, cette séance est conçue pour te
+              fournir une impulsion immédiate vers le changement positif. Prêt à
+              faire de cette séance unique un moment décisif dans ta progression
+              ?
             </span>
           </div>
 
-          <h1 className="medium text-xl text-black ">Prix : 2300 Dhs</h1>
+          <h1 className="medium text-xl text-black ">Prix : 80 euros</h1>
         </div>
       </PinContainer>
     </div>

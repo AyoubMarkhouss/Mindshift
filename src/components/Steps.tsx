@@ -48,11 +48,13 @@ const Steps = () => {
               <div className="w-px h-full bg-gray-300" />
             </div>
             <div className="pt-1 pb-8">
-              <p className="mb-2 text-lg font-bold">Step 1</p>
+              <p className="mb-2 text-lg font-bold">
+                Séance 1 &apos;OFFERTE&apos; - The first date
+              </p>
               <p className="text-gray-700">
-                All recipes are written using certain conventions, which define
-                the characteristics of common ingredients. The rules vary from
-                place to place.
+                Notre premier rendez-vous est c de mieux se connaître. On
+                discutera de tes objectifs, de tes défis et de tes aspirations.
+                Cette séance posera les bases de notre partenariat de coaching.
               </p>
             </div>
           </div>
@@ -87,15 +89,21 @@ const Steps = () => {
               <div className="w-px h-full bg-gray-300" />
             </div>
             <div className="pt-1 pb-8">
-              <p className="mb-2 text-lg font-bold">Step 2</p>
+              <p className="mb-2 text-lg font-bold">
+                Séances 2 à 7 - The Transformation
+              </p>
               <p className="text-gray-700">
-                The first mate and his Skipper too will do their very best to
-                make the others comfortable in their tropic island nest. Michael
-                Knight a young loner.
+                Au cours de ces 6 semaines intermédiaires, on plongera
+                profondément dans ton développement perso. Chaque séance sera
+                axée sur des sujets spécifiques, comme l&apos;organisation, la
+                confiance en toi, la discipline, l&apos;équilibre émotionnel, et
+                bien plus encore. On travaillera ensemble pour élaborer des
+                stratégies, des programmes et des solutions personnalisées qui
+                t&apos;aideront à atteindre tes objectifs
               </p>
             </div>
           </div>
-          <div className="flex">
+          {/* <div className="flex">
             <div className="flex flex-col items-center mr-4">
               <div>
                 <div className="flex items-center justify-center w-10 h-10 border rounded-full">
@@ -126,13 +134,16 @@ const Steps = () => {
               <div className="w-px h-full bg-gray-300" />
             </div>
             <div className="pt-1 pb-8">
-              <p className="mb-2 text-lg font-bold">Step 3</p>
+              <p className="mb-2 text-lg font-bold">Séance 8 -The final step</p>
               <p className="text-gray-700">
-                Tell them I hate them. Is the Space Pope reptilian!? Tell her
-                she looks thin. Hello, little man. I will destroy you!
+                Notre dernière séance marquera le point culminant de ton voyage.
+                On passera en revue tes progrès, on célébrera tes réussites et
+                on discutera des étapes à suivre pour maintenir et renforcer les
+                résultats obtenus. Tu repartiras avec des outils et une vision
+                claire pour ton avenir
               </p>
             </div>
-          </div>
+          </div> */}
           {/* <div className="flex">
             <div className="flex flex-col items-center mr-4">
               <div>
@@ -193,9 +204,15 @@ const Steps = () => {
                 </div>
               </div>
             </div>
-            <div className="pt-1">
-              <p className="mb-2 text-lg font-bold">Success</p>
-              <p className="text-gray-700" />
+            <div className="pt-1 pb-8">
+              <p className="mb-2 text-lg font-bold">Séance 8 -The final step</p>
+              <p className="text-gray-700">
+                Notre dernière séance marquera le point culminant de ton voyage.
+                On passera en revue tes progrès, on célébrera tes réussites et
+                on discutera des étapes à suivre pour maintenir et renforcer les
+                résultats obtenus. Tu repartiras avec des outils et une vision
+                claire pour ton avenir
+              </p>
             </div>
           </div>
         </div>
