@@ -19,7 +19,7 @@ export function Cardtwo() {
           className="text-neutral-500 text-justify text-sm md:text-medium max-w-sm mt-2 dark:text-neutral-300"
         >
           • Une intervention ponctuelle pour des résultats immédiats. <br /> •
-          Session d'1h30 en visio pour un accompagnement ciblé. <br /> •
+          Session d&apos;1h30 en visio pour un accompagnement ciblé. <br /> •
           Concentre ton énergie sur un besoin spécifique. <br /> • Dépasse un
           obstacle, clarifie une situation, ou obtiens des conseils pratiques
         </CardItem>
