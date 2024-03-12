@@ -20,7 +20,7 @@ function SampleNextArrow(props: {
       onClick={onClick}
       style={{ ...style, display: "block" }}
     >
-      <Cheveronright className="md:w-10 w-5" />
+      <Cheveronright className="hidden sm:flex md:w-10 w-5" />
     </div>
   );
 }
