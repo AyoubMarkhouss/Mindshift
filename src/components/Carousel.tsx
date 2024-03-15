@@ -86,7 +86,7 @@ function MultipleItems() {
   return (
     <div className="slider-container ">
       <Slider {...settings}>
-        <div className="max-w-[22rem] h-72 px-8 py-10 mt-16 bg-transparent  rounded-2xl border-1 border-black shadow-xl">
+        <div className="max-w-[22rem] h-72 px-6 py-10 mt-16 bg-slate-50/30 backdrop-blur-md rounded-2xl border-1 border-black ">
           <div className="relative flex justify-center -mt-16 md:justify-end">
             <Image
               width={1000}
@@ -109,7 +109,7 @@ function MultipleItems() {
             montré que chaque petit pas compte.
           </p>
         </div>
-        <div className="max-w-[22rem] h-72 px-8 py-10 mt-16 bg-transparent  rounded-2xl border-1 border-black shadow-xl">
+        <div className="max-w-[22rem] h-72 px-6 py-10 mt-16 bg-slate-50/30 backdrop-blur-md rounded-2xl border-1 border-black ">
           <div className="flex justify-center -mt-16 md:justify-end">
             <Image
               width={1000}
@@ -132,7 +132,7 @@ function MultipleItems() {
             moi. Une transformation réelle et durable, merci !
           </p>
         </div>
-        <div className="max-w-[22rem] h-72 px-8 py-10 mt-16 bg-transparent  rounded-2xl border-1 border-black shadow-xl">
+        <div className="max-w-[22rem] h-72 px-6 py-10 mt-16 bg-slate-50/30 backdrop-blur-md rounded-2xl border-1 border-black ">
           <div className="flex justify-center -mt-16 md:justify-end">
             <Image
               width={1000}
@@ -155,7 +155,7 @@ function MultipleItems() {
           </p>
         </div>
 
-        <div className="max-w-[22rem] h-72 px-8 py-10 mt-16 bg-transparent  rounded-2xl border-1 border-black shadow-xl">
+        <div className="max-w-[22rem] h-72 px-6 py-10 mt-16 bg-slate-50/30 backdrop-blur-md rounded-2xl border-1 border-black ">
           <div className="flex justify-center -mt-16 md:justify-end">
             <Image
               width={1000}
@@ -179,7 +179,7 @@ function MultipleItems() {
           </p>
         </div>
 
-        <div className="max-w-[22rem] h-72 px-8 py-10 mt-16 bg-transparent  rounded-2xl border-1 border-black shadow-xl">
+        <div className="max-w-[22rem] h-72 px-6 py-10 mt-16 bg-slate-50/30 backdrop-blur-md rounded-2xl border-1 border-black ">
           <div className="flex justify-center -mt-16 md:justify-end">
             <Image
               width={1000}
@@ -204,7 +204,7 @@ function MultipleItems() {
           </p>
         </div>
 
-        <div className="max-w-[22rem] h-72 px-8 py-10 mt-16 bg-transparent  rounded-2xl border-1 border-black shadow-xl">
+        <div className="max-w-[22rem] h-72 px-6 py-10 mt-16 bg-slate-50/30 backdrop-blur-md rounded-2xl border-1 border-black ">
           <div className="flex justify-center -mt-16 md:justify-end">
             <Image
               width={1000}

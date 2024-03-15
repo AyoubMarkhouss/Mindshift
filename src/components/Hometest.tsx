@@ -232,7 +232,14 @@ const Hometest = () => {
           <div className="relative px-4 py-16 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8 lg:py-20">
             <Cardwhy />
           </div>
-          <div>
+          <div className="relative">
+            <div
+              className="absolute top-20 inset-0 blur-[118px] max-w-lg h-[300px] mx-auto sm:max-w-3xl sm:h-[300px]"
+              style={{
+                background:
+                  "linear-gradient(126.89deg, rgb(240, 229, 207) 35.73%, rgb(253, 191, 96) 65.30%, rgb(127, 39, 255) 25.91% ,rgb(159, 112, 253) 10.49%)",
+              }}
+            ></div>
             <MultipleItems />
           </div>
           <div className="pt-10">
