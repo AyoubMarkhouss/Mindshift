@@ -39,7 +39,7 @@ const services = () => {
                 <Button
                   as={Link}
                   className="relative shadow-2xl shadow-slate-700 inline-flex h-12 overflow-hidden rounded-full p-[1px] focus:outline-none focus:ring-2 focus:ring-slate-400 focus:ring-offset-2 focus:ring-offset-slate-50"
-                  href="#"
+                  href="/contact"
                   variant="flat"
                 >
                   <span className="absolute inset-[-1000%] animate-[spin_2s_linear_infinite] bg-[conic-gradient(from_90deg_at_50%_50%,#E2CBFF_0%,#393BB2_50%,#E2CBFF_100%)]" />
@@ -67,7 +67,7 @@ const services = () => {
             <div className="col-span-1 pt-10 sm:pt-0">
               <Service3 />
             </div>
-            <div className="col-span-1 md:col-span-2 pt-20 pb-10 sm:pt-0 sm:pb-0">
+            <div className="col-span-1 md:col-span-2 pt-24 pb-10 sm:pt-0 sm:pb-0">
               <Service2 />
             </div>
           </div>

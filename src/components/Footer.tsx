@@ -1,22 +1,28 @@
+import Image from "next/image";
+import Link from "next/link";
 import React from "react";
 
 const Footer = () => {
   return (
     <footer className=" px-4 divide-y dark:bg-gray-800 dark:text-gray-100">
       <div className="container flex flex-col justify-between py-10 mx-auto space-y-8 lg:flex-row lg:space-y-0">
-        <div className="lg:w-1/3">
-          <a
-            rel="noopener noreferrer"
-            href="#"
-            className="flex justify-center space-x-3 lg:justify-start"
-          >
-            <span className="semibold self-center text-5xl">MINDSHIFT</span>
-          </a>
+        <div className="sm:w-1/6 w-full flex justify-center items-center">
+          <div className="w-1/2">
+            <a
+              rel="noopener noreferrer"
+              href="#"
+              className="flex justify-center space-x- lg:justify-start"
+            >
+              <Image alt="logo" src="/logo2.png" width={1000} height={1000} />
+            </a>
+          </div>
         </div>
-        <div className="grid grid-cols-2 text-sm gap-x-3 gap-y-8 lg:w-2/3 sm:grid-cols-4">
-          <div className="space-y-3">
-            <h3 className="tracki uppercase dark:text-gray-50">Product</h3>
-            <ul className="space-y-1">
+        <div className="grid grid-cols-2 text-sm gap-x-3 gap-y-8 lg:w-2/3 sm:grid-cols-6">
+          <div className="space-y-3 flex justify-center items-center">
+            <Link href="/" about="a propos">
+              <h3 className="tracki uppercase dark:text-gray-50">A propos</h3>
+            </Link>
+            {/* <ul className="space-y-1">
               <li>
                 <a rel="noopener noreferrer" href="#">
                   Features
@@ -37,44 +43,29 @@ const Footer = () => {
                   FAQ
                 </a>
               </li>
-            </ul>
+            </ul> */}
           </div>
-          <div className="space-y-3">
-            <h3 className="tracki uppercase dark:text-gray-50">Company</h3>
-            <ul className="space-y-1">
-              <li>
-                <a rel="noopener noreferrer" href="#">
-                  Privacy
-                </a>
-              </li>
-              <li>
-                <a rel="noopener noreferrer" href="#">
-                  Terms of Service
-                </a>
-              </li>
-            </ul>
+          <div className="space-y-3 flex justify-center items-center">
+            <Link href="services" about="services">
+              <h3 className="tracki uppercase dark:text-gray-50">Services</h3>
+            </Link>
           </div>
-          <div className="space-y-3">
-            <h3 className="uppercase dark:text-gray-50">Developers</h3>
-            <ul className="space-y-1">
-              <li>
-                <a rel="noopener noreferrer" href="#">
-                  Public API
-                </a>
-              </li>
-              <li>
-                <a rel="noopener noreferrer" href="#">
-                  Documentation
-                </a>
-              </li>
-              <li>
-                <a rel="noopener noreferrer" href="#">
-                  Guides
-                </a>
-              </li>
-            </ul>
+          <div className="space-y-3 flex justify-center items-center">
+            <Link href="/expertises" about="expertises">
+              <h3 className="uppercase dark:text-gray-50">Expertises</h3>
+            </Link>
           </div>
-          <div className="space-y-3">
+          <div className="space-y-3 flex justify-center items-center">
+            <Link href="/blog" about="blog">
+              <h3 className="uppercase dark:text-gray-50">Blog</h3>
+            </Link>
+          </div>
+          <div className="space-y-3 flex justify-center items-center">
+            <Link href="/blog" about="blog">
+              <h3 className="uppercase dark:text-gray-50">Contact</h3>
+            </Link>
+          </div>
+          <div className="space-y-3  md:pt-10 flex flex-col justify-center items-center">
             <div className="uppercase dark:text-gray-50">Social media</div>
             <div className="flex justify-start space-x-3">
               <a

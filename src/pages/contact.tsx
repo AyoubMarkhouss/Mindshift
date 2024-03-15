@@ -28,7 +28,7 @@ const Contact: React.FC = () => {
     e.target.reset();
   };
   return (
-    <div className="contact mx-auto max-w-screen-xl relative min-h-screen">
+    <div className="contact mx-auto max-w-screen-xl relative min-h-screen" >
       <div
         className="absolute top-20 inset-0 blur-[118px] max-w-lg h-[800px] mx-auto sm:max-w-3xl sm:h-[500px]"
         style={{
@@ -113,7 +113,7 @@ const Contact: React.FC = () => {
                 </svg>
 
                 <span className="mx-2 text-gray-600 truncate w-72 ">
-                  Hibenalla@gmail.com
+                  icyliftss.coaching@gmail.com
                 </span>
               </p>
             </div>
@@ -123,7 +123,7 @@ const Contact: React.FC = () => {
               <div className="flex ">
                 <Link
                   className="mx-1.5 text-gray-400 transition-colors duration-300 transform hover:text-lightviolet"
-                  href="https://www.instagram.com/devency_/"
+                  href="#"
                 >
                   <svg
                     className="w-10 h-10"
@@ -209,7 +209,6 @@ const Contact: React.FC = () => {
         theme="light"
         autoClose={2000}
       />
-      <Letter className="hidden lg:flex md:w-96 md:h-[379px] md:absolute md:-mt-[350px] md:ml-[440px] md:z-10" />
     </div>
   );
 };

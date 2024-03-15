@@ -40,7 +40,7 @@ const Hometest = () => {
                 <Button
                   as={Link}
                   className="relative shadow-2xl shadow-slate-700 inline-flex h-12 overflow-hidden rounded-full p-[1px] focus:outline-none focus:ring-2 focus:ring-slate-400 focus:ring-offset-2 focus:ring-offset-slate-50"
-                  href="#"
+                  href="/contact"
                   variant="flat"
                 >
                   <span className="absolute inset-[-1000%] animate-[spin_2s_linear_infinite] bg-[conic-gradient(from_90deg_at_50%_50%,#E2CBFF_0%,#393BB2_50%,#E2CBFF_100%)]" />
@@ -184,7 +184,7 @@ const Hometest = () => {
               <Cardtwo />
               <Cardthree />
             </div>
-            <div className="grid grid-cols-4">
+            {/* <div className="grid grid-cols-4">
               <div></div>
               <div className="flex justify-center pr-6 sm:pr-0">
                 <Button
@@ -213,6 +213,19 @@ const Hometest = () => {
                 </Button>
               </div>
               <div></div>
+            </div> */}
+            <div className="flex justify-center items-center">
+              <Button
+                as={Link}
+                className="relative inline-flex h-12 overflow-hidden rounded-full p-[1px] focus:outline-none focus:ring-2 focus:ring-slate-400 focus:ring-offset-2 focus:ring-offset-slate-50"
+                href="/services"
+                variant="flat"
+              >
+                <span className="absolute inset-[-1000%] animate-[spin_2s_linear_infinite] bg-[conic-gradient(from_90deg_at_50%_50%,#E2CBFF_0%,#393BB2_50%,#E2CBFF_100%)]" />
+                <span className="inline-flex h-full w-full cursor-pointer items-center justify-center rounded-full bg-black px-6  py-1 text-sm font-medium text-slate-50 backdrop-blur-3xl">
+                  En savoir plus
+                </span>
+              </Button>
             </div>
           </div>
 

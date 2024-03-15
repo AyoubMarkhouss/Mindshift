@@ -7,7 +7,7 @@ export function Service1() {
     <div className="h-[30rem] my-6 w-full flex items-center justify-center ">
       <PinContainer
         title="Je réserve mon 1er call gratuit"
-        href="https://twitter.com/mannupaaji"
+        href="/contact"
       >
         <div className="flex gap-7 basis-full flex-col mx-auto p-4 tracking-tight text-slate-100/50 sm:basis-1/2 w-80 md:w-[25rem] min-h-[20rem] ">
           <h3 className="medium max-w-md text-4xl !pb-2 !m-0  text-black">
