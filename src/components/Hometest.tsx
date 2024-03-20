@@ -154,7 +154,7 @@ const Hometest = () => {
                   <Image
                     width={1000}
                     height={1000}
-                    className="shadow-2xl shadow-gray-600 object-cover w-40 h-40 rounded-[100px] sm:h-full xl:h-full sm:w-64 xl:w-full"
+                    className="shadow-2xl shadow-gray-600 object-cover w-screen h-56 rounded-[100px] sm:h-full xl:h-full sm:w-64 xl:w-full"
                     src="/canapé.jpg"
                     alt=""
                   />
