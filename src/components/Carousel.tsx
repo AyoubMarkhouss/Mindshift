@@ -7,6 +7,7 @@ import Link from "next/link";
 import style from "styled-jsx/style";
 import Cheveronright from "./icons/Cheveronright";
 import Cheveronleft from "./icons/Cheveronleft";
+import Msg from "./icons/Msg";
 
 function SampleNextArrow(props: {
   className?: string;
@@ -50,7 +51,7 @@ function MultipleItems() {
     slidesToShow: 3,
     slidesToScroll: 1,
     autoplay: true,
-    speed: 1500,
+    speed: 1000,
     autoplaySpeed: 3000,
     cssEase: "linear",
     nextArrow: <SampleNextArrow />,
@@ -86,15 +87,9 @@ function MultipleItems() {
   return (
     <div className="slider-container ">
       <Slider {...settings}>
-        <div className="max-w-[22rem] h-72 px-6 py-10 mt-16 bg-slate-50/30 backdrop-blur-md rounded-2xl border-1 border-black ">
-          <div className="relative flex justify-center -mt-16 md:justify-end">
-            <Image
-              width={1000}
-              height={1000}
-              className="object-cover w-20 h-20 border-2 border-black rounded-full "
-              alt="Testimonial avatar"
-              src="/brain.png"
-            />
+        <div className="max-w-[22rem] lg:h-72 h-full px-6 py-10 mt-16 bg-slate-50/30 backdrop-blur-md rounded-2xl border-1 border-black ">
+          <div className="relative flex justify-center -mt-24 md:justify-end">
+            <Msg className="object-cover w-28 h-28 " />
           </div>
           {/* 
           <h2 className="mt-2 text-xl font-semibold text-gray-800 dark:text-white md:mt-0">
@@ -109,15 +104,9 @@ function MultipleItems() {
             montré que chaque petit pas compte.
           </p>
         </div>
-        <div className="max-w-[22rem] h-72 px-6 py-10 mt-16 bg-slate-50/30 backdrop-blur-md rounded-2xl border-1 border-black ">
-          <div className="flex justify-center -mt-16 md:justify-end">
-            <Image
-              width={1000}
-              height={1000}
-              className="object-cover w-20 h-20 border-2 border-black rounded-full "
-              alt="Testimonial avatar"
-              src="/brain.png"
-            />
+        <div className="max-w-[22rem] lg:h-72 h-full px-6 py-10 mt-16 bg-slate-50/30 backdrop-blur-md rounded-2xl border-1 border-black ">
+          <div className="relative flex justify-center -mt-24 md:justify-end">
+            <Msg className="object-cover w-28 h-28 " />
           </div>
 
           {/* <h2 className="mt-2 text-xl font-semibold text-gray-800 dark:text-white md:mt-0">
@@ -132,15 +121,9 @@ function MultipleItems() {
             moi. Une transformation réelle et durable, merci !
           </p>
         </div>
-        <div className="max-w-[22rem] h-72 px-6 py-10 mt-16 bg-slate-50/30 backdrop-blur-md rounded-2xl border-1 border-black ">
-          <div className="flex justify-center -mt-16 md:justify-end">
-            <Image
-              width={1000}
-              height={1000}
-              className="object-cover w-20 h-20 border-2 border-black rounded-full "
-              alt="Testimonial avatar"
-              src="/brain.png"
-            />
+        <div className="max-w-[22rem] lg:h-72 h-full px-6 py-10 mt-16 bg-slate-50/30 backdrop-blur-md rounded-2xl border-1 border-black ">
+          <div className="relative flex justify-center -mt-24 md:justify-end">
+            <Msg className="object-cover w-28 h-28 " />
           </div>
 
           {/* <h2 className="mt-2 text-xl font-semibold text-gray-800 dark:text-white md:mt-0">
@@ -155,15 +138,9 @@ function MultipleItems() {
           </p>
         </div>
 
-        <div className="max-w-[22rem] h-72 px-6 py-10 mt-16 bg-slate-50/30 backdrop-blur-md rounded-2xl border-1 border-black ">
-          <div className="flex justify-center -mt-16 md:justify-end">
-            <Image
-              width={1000}
-              height={1000}
-              className="object-cover w-20 h-20 border-2 border-black rounded-full "
-              alt="Testimonial avatar"
-              src="/brain.png"
-            />
+        <div className="max-w-[22rem] lg:h-72 h-full px-6 py-10 mt-16 bg-slate-50/30 backdrop-blur-md rounded-2xl border-1 border-black ">
+          <div className="relative flex justify-center -mt-24 md:justify-end">
+            <Msg className="object-cover w-28 h-28 " />
           </div>
 
           {/* <h2 className="mt-2 text-xl font-semibold text-gray-800 dark:text-white md:mt-0">
@@ -179,15 +156,9 @@ function MultipleItems() {
           </p>
         </div>
 
-        <div className="max-w-[22rem] h-72 px-6 py-10 mt-16 bg-slate-50/30 backdrop-blur-md rounded-2xl border-1 border-black ">
-          <div className="flex justify-center -mt-16 md:justify-end">
-            <Image
-              width={1000}
-              height={1000}
-              className="object-cover w-20 h-20 border-2 border-black rounded-full "
-              alt="Testimonial avatar"
-              src="/brain.png"
-            />
+        <div className="max-w-[22rem] lg:h-72 h-full px-6 py-10 mt-16 bg-slate-50/30 backdrop-blur-md rounded-2xl border-1 border-black ">
+          <div className="relative flex justify-center -mt-24 md:justify-end">
+            <Msg className="object-cover w-28 h-28 " />
           </div>
 
           {/* <h2 className="mt-2 text-xl font-semibold text-gray-800 dark:text-white md:mt-0">
@@ -204,15 +175,9 @@ function MultipleItems() {
           </p>
         </div>
 
-        <div className="max-w-[22rem] h-72 px-6 py-10 mt-16 bg-slate-50/30 backdrop-blur-md rounded-2xl border-1 border-black ">
-          <div className="flex justify-center -mt-16 md:justify-end">
-            <Image
-              width={1000}
-              height={1000}
-              className="object-cover w-20 h-20 border-2 border-black rounded-full "
-              alt="Testimonial avatar"
-              src="/brain.png"
-            />
+        <div className="max-w-[22rem] lg:h-72 h-full px-6 py-10 mt-16 bg-slate-50/30 backdrop-blur-md rounded-2xl border-1 border-black ">
+          <div className="relative flex justify-center -mt-24 md:justify-end">
+            <Msg className="object-cover w-28 h-28 " />
           </div>
 
           {/* <h2 className="mt-2 text-xl font-semibold text-gray-800 dark:text-white md:mt-0">

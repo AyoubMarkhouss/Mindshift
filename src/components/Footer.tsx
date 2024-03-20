@@ -17,7 +17,7 @@ const Footer = () => {
             </a>
           </div>
         </div>
-        <div className="grid grid-cols-2 text-sm gap-x-3 gap-y-8 lg:w-2/3 sm:grid-cols-6">
+        <div className="grid grid-cols-2 text-sm gap-x-3 gap-y-8 lg:w-2/3 sm:grid-cols-5">
           <div className="space-y-3 flex justify-center items-center">
             <Link href="/" about="a propos">
               <h3 className="tracki uppercase dark:text-gray-50">A propos</h3>
@@ -65,7 +65,7 @@ const Footer = () => {
               <h3 className="uppercase dark:text-gray-50">Contact</h3>
             </Link>
           </div>
-          <div className="space-y-3  md:pt-10 flex flex-col justify-center items-center">
+          {/* <div className="space-y-3  md:pt-10 flex flex-col justify-center items-center">
             <div className="uppercase dark:text-gray-50">Social media</div>
             <div className="flex justify-start space-x-3">
               <a
@@ -113,7 +113,7 @@ const Footer = () => {
                 </svg>
               </a>
             </div>
-          </div>
+          </div> */}
         </div>
       </div>
       <div className="py-6 text-sm text-center dark:text-gray-400">

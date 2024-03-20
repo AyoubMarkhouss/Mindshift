@@ -47,6 +47,7 @@ export default function Navnext() {
       onMenuOpenChange={setIsMenuOpen}
       isBlurred={false}
       className={navbarBlur ? "blurred" : "trans"}
+      id="nav"
     >
       <NavbarContent>
         <NavbarMenuToggle

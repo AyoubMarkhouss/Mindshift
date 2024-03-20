@@ -23,12 +23,12 @@ const Scrolltop = () => {
   return (
     <>
       <Button
-        to="Home"
+        to="hero"
         smooth
-        offset={-100}
+        offset={-160}
         className="top hidden fixed z-50 bottom-5 right-7"
       >
-        <Uparrow className="h-10 w-10 fill-lightviolet" />
+        <Uparrow className="h-10 w-10 fill-black" />
       </Button>
     </>
   );

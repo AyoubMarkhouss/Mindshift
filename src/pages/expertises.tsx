@@ -4,23 +4,25 @@ import Image from "next/image";
 import { Button } from "@nextui-org/react";
 import Link from "next/link";
 import MultipleItems from "@/components/Carousel";
+import Scrolltop from "@/components/Scrolltop";
 const expertises = () => {
   return (
     <>
       <TracingBeam>
+        <Scrolltop />
         <div
           id="expertises"
           className="relative px-4 min-h-screen py-16 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8 lg:py-20"
         >
-          <div className="grid  gap-10 lg:grid-cols-8 z-50 min-h-screen">
+          <div className="grid pb-24 gap-10 lg:grid-cols-8 z-50" id="hero">
             <div
               className="absolute top-20 inset-0 blur-[118px] max-w-lg h-[800px] mx-auto sm:max-w-3xl sm:h-[500px]"
               style={{
                 background:
-                  "linear-gradient(126.89deg, rgb(240, 229, 207) 35.73%, rgb(253, 191, 96) 65.30%, rgb(127, 39, 255) 25.91% ,rgb(159, 112, 253) 10.49%)",
+                  "linear-gradient(126.89deg, rgb(23, 107, 135) 35.73%, rgb(65, 109, 25) 65.30%, rgb(127, 39, 255) 25.91% ,rgb(65, 109, 25) 10.49%)",
               }}
             ></div>
-            <div className="md:pt-10 col-span-4 sm:gap-6 flex flex-col text-center z-30">
+            <div className="md:pt-7 col-span-4 sm:gap-6 flex flex-col text-center z-30">
               <h5 className="semibold mb-4 text-5xl sm:text-7xl font-extrabold leading-none">
                 Mes expertises
               </h5>
@@ -35,12 +37,12 @@ const expertises = () => {
                 <Button
                   as={Link}
                   className="relative shadow-2xl shadow-slate-700 inline-flex h-12 overflow-hidden rounded-full p-[1px] focus:outline-none focus:ring-2 focus:ring-slate-400 focus:ring-offset-2 focus:ring-offset-slate-50"
-                  href="/contact"
+                  href="https://calendly.com/icyliftss-coaching/60-minute-meeting?month=2024-03"
                   variant="flat"
                 >
                   <span className="absolute inset-[-1000%] animate-[spin_2s_linear_infinite] bg-[conic-gradient(from_90deg_at_50%_50%,#E2CBFF_0%,#393BB2_50%,#E2CBFF_100%)]" />
                   <span className="inline-flex h-full w-full cursor-pointer items-center justify-center rounded-full bg-black px-4 py-1 text-xl font-medium text-slate-50 backdrop-blur-3xl">
-                    Je réserve mon call
+                    Ma première séance offerte 
                   </span>
                 </Button>
               </div>
@@ -49,8 +51,8 @@ const expertises = () => {
               <Image
                 width={1000}
                 height={1000}
-                className="object-cover w-full h-full rounded-[150px]  sm:h-96"
-                src="/brain.png"
+                className="object-cover w-full h-full"
+                src="/ppp.png"
                 alt=""
               />
             </div>
@@ -74,7 +76,7 @@ const expertises = () => {
                 width={1000}
                 height={1000}
                 className="object-cover w-[350px] md:w-[450px] h-full rounded-[150px]  sm:h-96"
-                src="/brain.png"
+                src="/brain1.png"
                 alt=""
               />
             </div>
@@ -125,7 +127,7 @@ const expertises = () => {
                       {/* <p className="text-xl font-semibold sm:text-base">
                         Read the recipe
                       </p> */}
-                      <p className="text-sm md:text-medium text-justify text-gray-700">
+                      <p className="text-sm md:text-xl text-justify text-gray-700">
                         Grâce à la PNL, tu développeras des compétences en
                         communication exceptionnelles, t&apos;aidant à établir
                         des relations sociales plus profondes et significatives.
@@ -148,7 +150,7 @@ const expertises = () => {
                       {/* <p className="text-xl font-semibold sm:text-base">
                         Heart attack
                       </p> */}
-                      <p className="text-sm md:text-medium text-justify text-gray-700">
+                      <p className="text-sm md:text-xl text-justify text-gray-700">
                         La PNL te permet de mieux comprendre tes pensées et
                         émotions, favorisant une relation positive avec toi-même
                         et renforçant l&apos;estime de soi.
@@ -171,7 +173,7 @@ const expertises = () => {
                       {/* <p className="text-xl font-semibold sm:text-base">
                         Never stop
                       </p> */}
-                      <p className="text-sm md:text-medium text-justify text-gray-700">
+                      <p className="text-sm md:text-xl text-justify text-gray-700">
                         En identifiant et en remodelant les schémas mentaux
                         négatifs, la PNL te conduit vers une confiance en toi
                         solide et durable, t&apos;encourageant à relever avec
@@ -183,13 +185,13 @@ const expertises = () => {
                 <div className="flex pt-5 items-center justify-center space-x-4">
                   <Button
                     as={Link}
-                    className="relative  inline-flex h-12 overflow-hidden rounded-full p-[1px] focus:outline-none focus:ring-2 focus:ring-slate-400 focus:ring-offset-2 focus:ring-offset-slate-50"
-                    href="/contact"
+                    className="relative shadow-2xl shadow-slate-700 inline-flex h-12 overflow-hidden rounded-full p-[1px] focus:outline-none focus:ring-2 focus:ring-slate-400 focus:ring-offset-2 focus:ring-offset-slate-50"
+                    href="https://calendly.com/icyliftss-coaching/60-minute-meeting?month=2024-03"
                     variant="flat"
                   >
                     <span className="absolute inset-[-1000%] animate-[spin_2s_linear_infinite] bg-[conic-gradient(from_90deg_at_50%_50%,#E2CBFF_0%,#393BB2_50%,#E2CBFF_100%)]" />
                     <span className="inline-flex h-full w-full cursor-pointer items-center justify-center rounded-full bg-black px-4 py-1 text-xl font-medium text-slate-50 backdrop-blur-3xl">
-                      Je réserve mon call
+                      Ma première séance offerte 
                     </span>
                   </Button>
                 </div>
@@ -224,7 +226,7 @@ const expertises = () => {
                 width={1000}
                 height={1000}
                 className="object-cover w-[450px] h-full rounded-[150px]  sm:h-96"
-                src="/brain.png"
+                src="/brain2.png"
                 alt=""
               />
             </div>
@@ -260,7 +262,7 @@ const expertises = () => {
                       {/* <p className="text-xl font-semibold sm:text-base">
                         Read the recipe
                       </p> */}
-                      <p className="text-sm md:text-medium text-justify text-gray-700">
+                      <p className="text-sm md:text-xl text-justify text-gray-700">
                         En développant ton intelligence émotionnelle, tu
                         affineras ta capacité à comprendre et à réagir aux
                         émotions des autres, favorisant des relations plus
@@ -284,7 +286,7 @@ const expertises = () => {
                       {/* <p className="text-xl font-semibold sm:text-base">
                         Heart attack
                       </p> */}
-                      <p className="text-sm md:text-medium text-justify text-gray-700">
+                      <p className="text-sm md:text-xl text-justify text-gray-700">
                         L&apos;intelligence émotionnelle t&apos;aidera à mieux
                         gérer tes émotions internes, renforçant ainsi une
                         connexion positive avec toi-même et améliorant
@@ -308,7 +310,7 @@ const expertises = () => {
                       {/* <p className="text-xl font-semibold sm:text-base">
                         Never stop
                       </p> */}
-                      <p className="text-sm md:text-medium text-justify text-gray-700">
+                      <p className="text-sm md:text-xl text-justify text-gray-700">
                         En comprenant et en canalisant efficacement tes
                         émotions, tu développeras une vision claire de tes
                         objectifs, te donnant la force émotionnelle nécessaire
@@ -320,13 +322,13 @@ const expertises = () => {
                 <div className="flex pt-5 items-center justify-center space-x-4">
                   <Button
                     as={Link}
-                    className="relative inline-flex h-12 overflow-hidden rounded-full p-[1px] focus:outline-none focus:ring-2 focus:ring-slate-400 focus:ring-offset-2 focus:ring-offset-slate-50"
-                    href="/contact"
+                    className="relative shadow-2xl shadow-slate-700 inline-flex h-12 overflow-hidden rounded-full p-[1px] focus:outline-none focus:ring-2 focus:ring-slate-400 focus:ring-offset-2 focus:ring-offset-slate-50"
+                    href="https://calendly.com/icyliftss-coaching/60-minute-meeting?month=2024-03"
                     variant="flat"
                   >
                     <span className="absolute inset-[-1000%] animate-[spin_2s_linear_infinite] bg-[conic-gradient(from_90deg_at_50%_50%,#E2CBFF_0%,#393BB2_50%,#E2CBFF_100%)]" />
                     <span className="inline-flex h-full w-full cursor-pointer items-center justify-center rounded-full bg-black px-4 py-1 text-xl font-medium text-slate-50 backdrop-blur-3xl">
-                      Je réserve mon call
+                      Ma première séance offerte 
                     </span>
                   </Button>
                 </div>

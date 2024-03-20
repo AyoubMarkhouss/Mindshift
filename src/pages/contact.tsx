@@ -3,7 +3,6 @@ import emailjs from "@emailjs/browser";
 import React, { useRef } from "react";
 import { ToastContainer, toast } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
-import Letter from "@/components/icons/Letter";
 
 const Contact: React.FC = () => {
   const form = useRef(null);
@@ -28,7 +27,10 @@ const Contact: React.FC = () => {
     e.target.reset();
   };
   return (
-    <div className="contact mx-auto max-w-screen-xl relative min-h-screen" >
+    <div
+      className="contact mx-auto max-w-screen-xl relative min-h-screen"
+      id="contact"
+    >
       <div
         className="absolute top-20 inset-0 blur-[118px] max-w-lg h-[800px] mx-auto sm:max-w-3xl sm:h-[500px]"
         style={{
@@ -39,15 +41,15 @@ const Contact: React.FC = () => {
       <div className="container px-2 sm:px-6 md:px-8 lg:px-14 xl:px-36 mx-auto">
         <div className="lg:flex lg:items-center lg:-mx-6">
           <div className="relative lg:w-1/2 lg:mx-6 m-6">
-            <h1 className="semibold z-30 text-4xl md:font-semibold text-white  lg:text-5xl ">
-              Votre collaboration, notre succès commun!
+            <h1 className="semibold z-30 text-4xl md:font-semibold text-white  lg:text-7xl ">
+              Discutons !
             </h1>
             <div className="">
               <span className="inline-block w-36 md:w-52 h-1 bg-black rounded-full"></span>
               <span className="inline-block w-14 h-1 ml-1 bg-black rounded-full"></span>
               <span className="inline-block w-5 h-1 ml-1 bg-black rounded-full"></span>
             </div>
-
+            {/* 
             <div className="mt-6 space-y-8 md:mt-8 ">
               <p className="flex items-start -mx-2">
                 <svg
@@ -116,8 +118,8 @@ const Contact: React.FC = () => {
                   icyliftss.coaching@gmail.com
                 </span>
               </p>
-            </div>
-
+            </div> */}
+            {/* 
             <div className="mt-6 w-80 md:mt-8 flex items-center">
               <h3 className="text-lightviolet text-lg">Suis-moi</h3>
               <div className="flex ">
@@ -138,7 +140,7 @@ const Contact: React.FC = () => {
                   </svg>
                 </Link>
               </div>
-            </div>
+            </div> */}
           </div>
 
           <div className="mt-8 lg:w-1/2 lg:mx-6 m-5 z-30">
@@ -179,7 +181,7 @@ const Contact: React.FC = () => {
                   </div>
 
                   <div className="mb-3">
-                    <label>Méssage</label>
+                    <label>Message</label>
                     <textarea
                       className="mt-1 block w-full rounded-lg border border-solid border-gray-300 bg-white bg-clip-padding px-3 py-2 font-normal text-gray-700 outline-none transition-all placeholder:text-gray-500 focus:border-orange"
                       id="message"
