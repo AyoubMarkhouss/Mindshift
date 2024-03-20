@@ -19,7 +19,8 @@ export function BentoGridDemo() {
         className="absolute -z-0 top-20 inset-0 blur-[118px] max-w-lg h-[800px] mx-auto sm:max-w-3xl sm:h-full"
         style={{
           background:
-            "linear-gradient(126.89deg, rgb(240, 229, 207) 35.73%, rgb(253, 191, 96) 65.30%, rgb(127, 39, 255) 25.91% ,rgb(159, 112, 253) 10.49%)",
+            // "linear-gradient(126.89deg, rgb(240, 229, 207) 35.73%, rgb(253, 191, 96) 65.30%, rgb(127, 39, 255) 25.91% ,rgb(159, 112, 253) 10.49%)",
+            "linear-gradient(135.89deg, rgb(64, 162, 227) 35.91%, rgb(155, 207, 83) 35% )",
         }}
       ></div>
 

@@ -20,10 +20,10 @@ const services = () => {
         >
           <div className="grid  gap-10 lg:grid-cols-8 z-50" id="hero">
             <div
-              className="absolute top-20 inset-0 blur-[118px] max-w-lg h-[800px] mx-auto sm:max-w-3xl sm:h-[500px]"
+              className="absolute top-20 inset-0 blur-[140px] max-w-lg h-[800px] mx-auto sm:max-w-3xl sm:h-[550px]"
               style={{
                 background:
-                  "linear-gradient(126.89deg, rgb(240, 229, 207) 35.73%, rgb(253, 191, 96) 65.30%, rgb(127, 39, 255) 25.91% ,rgb(159, 112, 253) 10.49%)",
+                  "linear-gradient(135.89deg, rgb(64, 162, 227) 25.91%, rgb(155, 207, 83) 45% )",
               }}
             ></div>
             <div className="md:pt-7 col-span-4 sm:gap-6 flex flex-col text-center z-30">

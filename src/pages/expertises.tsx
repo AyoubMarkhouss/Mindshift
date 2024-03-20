@@ -16,10 +16,10 @@ const expertises = () => {
         >
           <div className="grid pb-24 gap-10 lg:grid-cols-8 z-50" id="hero">
             <div
-              className="absolute top-20 inset-0 blur-[118px] max-w-lg h-[800px] mx-auto sm:max-w-3xl sm:h-[500px]"
+              className="absolute top-20 inset-0 blur-[140px] max-w-lg h-[800px] mx-auto sm:max-w-3xl sm:h-[550px]"
               style={{
                 background:
-                  "linear-gradient(126.89deg, rgb(23, 107, 135) 35.73%, rgb(65, 109, 25) 65.30%, rgb(127, 39, 255) 25.91% ,rgb(65, 109, 25) 10.49%)",
+                  "linear-gradient(135.89deg, rgb(64, 162, 227) 25.91%, rgb(155, 207, 83) 45% )",
               }}
             ></div>
             <div className="md:pt-7 col-span-4 sm:gap-6 flex flex-col text-center z-30">
@@ -59,13 +59,13 @@ const expertises = () => {
           </div>
 
           <div className="grid  gap-10 lg:grid-cols-8 z-50 ">
-            <div
+            {/* <div
               className="absolute top-20 inset-0 blur-[118px] max-w-lg h-[800px] mx-auto sm:max-w-3xl sm:h-[500px]"
               style={{
                 background:
                   "linear-gradient(126.89deg, rgb(240, 229, 207) 35.73%, rgb(253, 191, 96) 65.30%, rgb(127, 39, 255) 25.91% ,rgb(159, 112, 253) 10.49%)",
               }}
-            ></div>
+            ></div> */}
             <div className="col-span-8 z-30">
               <h1 className="semibold text-center text-4xl md:text-6xl">
                 La programmation neuro-linguistique
@@ -99,10 +99,11 @@ const expertises = () => {
 
           <div className="relative px-4 py-16 flex flex-col items-center justify-center mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8 lg:py-20">
             <div
-              className="absolute z-0 md:top-32 inset-0 blur-[118px] max-w-lg h-[800px] mx-auto sm:max-w-3xl sm:h-[500px]"
+              className="absolute z-0 md:top-32 inset-0 blur-[178px] max-w-lg h-[800px] mx-auto sm:max-w-3xl sm:h-[600px]"
               style={{
                 background:
-                  "linear-gradient(126.89deg, rgb(240, 229, 207) 35.73%, rgb(253, 191, 96) 65.30%, rgb(127, 39, 255) 25.91% ,rgb(159, 112, 253) 10.49%)",
+                  // "linear-gradient(126.89deg, rgb(240, 229, 207) 35.73%, rgb(253, 191, 96) 65.30%, rgb(127, 39, 255) 25.91% ,rgb(159, 112, 253) 10.49%)",
+                  "linear-gradient(135.89deg, rgb(64, 162, 227) 35.91%, rgb(155, 207, 83) 35% )",
               }}
             ></div>
             <div className="lg:shadow-2xl  ld:bg-slate-50/30 lg:drop-shadow-lg relative z-30 lg:shadow-gray-500 lg:max-w-3xl lg:border-slate-50 lg:border-1 lg:p-10  lg:rounded-[60px]">
@@ -234,10 +235,11 @@ const expertises = () => {
 
           <div className="relative px-4 py-16 flex justify-center mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8 lg:py-20">
             <div
-              className="absolute z-0 md:top-32 inset-0 blur-[118px] max-w-lg h-[800px] mx-auto sm:max-w-3xl sm:h-[500px]"
+              className="absolute z-0 md:top-32 inset-0 blur-[118px] max-w-lg h-[800px] mx-auto sm:max-w-3xl sm:h-[600px]"
               style={{
                 background:
-                  "linear-gradient(126.89deg, rgb(240, 229, 207) 35.73%, rgb(253, 191, 96) 65.30%, rgb(127, 39, 255) 25.91% ,rgb(159, 112, 253) 10.49%)",
+                  // "linear-gradient(126.89deg, rgb(240, 229, 207) 35.73%, rgb(253, 191, 96) 65.30%, rgb(127, 39, 255) 25.91% ,rgb(159, 112, 253) 10.49%)"
+                  "linear-gradient(135.89deg, rgb(64, 162, 227) 35.91%, rgb(155, 207, 83) 35% )",
               }}
             ></div>
             <div className="lg:shadow-2xl lg:bg-slate-50/30 lg:drop-shadow-lg relative z-30 lg:shadow-gray-500 lg:max-w-3xl  lg:p-10 lg:border-slate-50 lg:border-1 lg:rounded-[60px]">

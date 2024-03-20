@@ -21,10 +21,10 @@ const Hometest = () => {
         <div className="relative px-4 min-h-screen py-16 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8 lg:py-20">
           <div className="grid  gap-10 lg:grid-cols-8 z-50" id="hero">
             <div
-              className="absolute top-20 inset-0 blur-[118px] max-w-lg h-[800px] mx-auto sm:max-w-3xl sm:h-[500px]"
+              className="absolute top-20 inset-0 blur-[150px] max-w-lg h-[800px] mx-auto sm:max-w-3xl sm:h-[550px]"
               style={{
                 background:
-                  "linear-gradient(126.89deg, rgb(240, 229, 207) 35.73%, rgb(253, 191, 96) 65.30%, rgb(127, 39, 255) 25.91% ,rgb(159, 112, 253) 10.49%)",
+                  "linear-gradient(135.89deg, rgb(64, 162, 227) 25.91%, rgb(155, 207, 83) 45% )",
               }}
             ></div>
             <div className=" col-span-4 sm:gap-6 flex flex-col text-center z-30">
@@ -165,10 +165,11 @@ const Hometest = () => {
 
           <div className="relative px-4 py-16 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8 lg:py-20">
             <div
-              className="absolute top-56 inset-0 blur-[118px] max-w-lg h-[800px] mx-auto sm:max-w-3xl sm:h-[500px]"
+              className="absolute top-56 inset-0 blur-[138px] max-w-lg h-[800px] mx-auto sm:max-w-3xl sm:h-[500px]"
               style={{
                 background:
-                  "linear-gradient(106.89deg, rgb(240, 229, 207) 15.73%, rgb(253, 191, 96) 55.30%, rgba(232, 121, 249, 0.26) 56.49%, rgb(243, 215, 202) 115.91%)",
+                  // "linear-gradient(106.89deg, rgb(240, 229, 207) 15.73%, rgb(253, 191, 96) 55.30%, rgba(232, 121, 249, 0.26) 56.49%, rgb(243, 215, 202) 115.91%)",
+                  "linear-gradient(135.89deg, rgb(64, 162, 227) 35.91%, rgb(155, 207, 83) 35% )",
               }}
             ></div>
             <div className="z-30 max-w-xl mb-10 md:mx-auto sm:text-center lg:max-w-2xl md:mb-12">
@@ -239,7 +240,7 @@ const Hometest = () => {
               className="absolute top-20 inset-0 blur-[118px] max-w-lg h-[300px] mx-auto sm:max-w-3xl sm:h-[300px]"
               style={{
                 background:
-                  "linear-gradient(126.89deg, rgb(240, 229, 207) 35.73%, rgb(253, 191, 96) 65.30%, rgb(127, 39, 255) 25.91% ,rgb(159, 112, 253) 10.49%)",
+                  "linear-gradient(135.89deg, rgb(64, 162, 227) 35.91%, rgb(155, 207, 83) 35% )",
               }}
             ></div>
             <MultipleItems />
