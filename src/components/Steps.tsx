@@ -12,7 +12,7 @@ const Steps = () => {
             "linear-gradient(135.89deg, rgb(64, 162, 227) 40.91%, rgb(155, 207, 83) 35% )",
         }}
       ></div>
-      <div className="relative z-30 flex items-center justify-center pb-10">
+      <div className="relative pt-20 z-30 flex items-center justify-center pb-10">
         <h1 className="semibold text-black text-4xl md:text-6xl">
           Le déroulement des séances
         </h1>
@@ -224,9 +224,9 @@ const Steps = () => {
               width={1000}
               height={1000}
               about="zz"
-              className="inset-0 object-cover object-bottom w-full rounded shadow-lg h-80 lg:absolute lg:h-96"
+              className="inset-0 object-cover rounded-[50px] object-bottom w-full  shadow-lg h-80 lg:absolute lg:h-96"
               alt=""
-              src="/ppl.jpeg"
+              src="/canapé.jpg"
             />
           </div>
           <div className="absolute left-5 pt-5 sm:pt-0 md:top-[450px] md:left-32 ">

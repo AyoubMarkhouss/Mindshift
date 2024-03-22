@@ -14,7 +14,7 @@ const expertises = () => {
           id="expertises"
           className="relative px-4 min-h-screen py-16 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8 lg:py-20"
         >
-          <div className="grid pb-24 gap-10 lg:grid-cols-8 z-50" id="hero">
+          <div className="grid pb-44  gap-10 lg:grid-cols-8 z-50" id="hero">
             <div
               className="absolute top-20 inset-0 blur-[140px] max-w-lg h-[800px] mx-auto sm:max-w-3xl sm:h-[550px]"
               style={{
@@ -47,12 +47,12 @@ const expertises = () => {
                 </Button>
               </div>
             </div>
-            <div className="col-span-4 z-30">
+            <div className="hidden overflow-hidden py-5 md:block md:col-span-4  z-30">
               <Image
                 width={1000}
                 height={1000}
-                className="object-cover w-full h-full"
-                src="/ppp.png"
+                className="object-cover w-full h-full scale-150"
+                src="/icon.png"
                 alt=""
               />
             </div>
@@ -71,11 +71,11 @@ const expertises = () => {
                 La programmation neuro-linguistique
               </h1>
             </div>
-            <div className=" col-span-8 md:col-span-4 z-30">
+            <div className=" col-span-8 lg:col-span-4 z-30">
               <Image
                 width={1000}
                 height={1000}
-                className="object-cover w-[350px] md:w-[450px] h-full rounded-[150px]  sm:h-96"
+                className="object-cover lg:w-full lg:h-full md:w-1/2 scale-85"
                 src="/brain1.png"
                 alt=""
               />
@@ -226,7 +226,7 @@ const expertises = () => {
               <Image
                 width={1000}
                 height={1000}
-                className="object-cover w-[450px] h-full rounded-[150px]  sm:h-96"
+                className="object-cover lg:w-full lg:h-full md:w-1/2 scale-85"
                 src="/brain2.png"
                 alt=""
               />

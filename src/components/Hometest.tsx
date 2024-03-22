@@ -52,12 +52,12 @@ const Hometest = () => {
                 </Button>
               </div>
             </div>
-            <div className="col-span-4  z-30">
+            <div className="hidden overflow-hidden py-5 md:block md:col-span-4  z-30">
               <Image
                 width={1000}
                 height={1000}
-                className="object-cover w-full h-full"
-                src="/ppp.png"
+                className="object-cover w-full h-full scale-150"
+                src="/icon.png"
                 alt=""
               />
             </div>

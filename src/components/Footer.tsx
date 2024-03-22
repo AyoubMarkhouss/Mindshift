@@ -61,7 +61,7 @@ const Footer = () => {
             </Link>
           </div>
           <div className="space-y-3 flex justify-center items-center">
-            <Link href="/blog" about="blog">
+            <Link href="/contact" about="contact">
               <h3 className="uppercase dark:text-gray-50">Contact</h3>
             </Link>
           </div>
