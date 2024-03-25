@@ -20,7 +20,7 @@ export function BentoGridDemo() {
         style={{
           background:
             // "linear-gradient(126.89deg, rgb(240, 229, 207) 35.73%, rgb(253, 191, 96) 65.30%, rgb(127, 39, 255) 25.91% ,rgb(159, 112, 253) 10.49%)",
-            "linear-gradient(135.89deg, rgb(64, 162, 227) 35.91%, rgb(155, 207, 83) 35% )",
+            "linear-gradient(135.89deg, rgb(64, 162, 227) 35.91%, rgb(173, 136, 198) 35% )",
         }}
       ></div>
 

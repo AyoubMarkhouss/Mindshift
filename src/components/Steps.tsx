@@ -9,7 +9,7 @@ const Steps = () => {
         className="absolute z-0 top-20 inset-0 blur-[188px] max-w-lg h-[800px] mx-auto sm:max-w-3xl sm:h-[700px]"
         style={{
           background:
-            "linear-gradient(135.89deg, rgb(64, 162, 227) 40.91%, rgb(155, 207, 83) 35% )",
+            "linear-gradient(135.89deg, rgb(64, 162, 227) 40.91%, rgb(173, 136, 198) 35% )",
         }}
       ></div>
       <div className="relative pt-20 z-30 flex items-center justify-center pb-10">

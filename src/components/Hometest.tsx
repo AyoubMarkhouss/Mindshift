@@ -19,23 +19,23 @@ const Hometest = () => {
       <TracingBeam>
         <Scrolltop />
         <div className="relative px-4 min-h-screen py-16 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8 lg:py-20">
-          <div className="grid  gap-10 lg:grid-cols-8 z-50" id="hero">
+          <div className="lg:pt-16 grid  gap-10 lg:grid-cols-8 z-50" id="hero">
             <div
               className="absolute top-20 inset-0 blur-[150px] max-w-lg h-[800px] mx-auto sm:max-w-3xl sm:h-[550px]"
               style={{
                 background:
-                  "linear-gradient(135.89deg, rgb(64, 162, 227) 25.91%, rgb(155, 207, 83) 45% )",
+                  "linear-gradient(135.89deg, rgb(64, 162, 227) 25.91%,rgb(173, 136, 198) 45% )",
               }}
             ></div>
-            <div className=" col-span-4 sm:gap-6 flex flex-col text-center z-30">
+            <div className="col-span-1"></div>
+            <div className=" col-span-6 sm:gap-6 flex flex-col text-center z-30">
               <h5 className="semibold mb-4 text-5xl sm:text-7xl font-extrabold leading-none">
-                Brown fox jumps over a lazy dog
+                Mindshift Coaching
               </h5>
-              <p className=" mb-6 text-gray-700">
-                Sed ut perspiciatis unde omnis iste natus error sit voluptatem
-                accusantium doloremque laudantium, totam rem aperiam, eaque ipsa
-                quae explicabo. Sed ut perspiciatis unde omnis iste natus error
-                sit voluptatem totam rem aperiam, eaque ipsa quae explicabo.
+              <p className=" mb-6 text-gray-700 text-xl">
+                C'est la safe place où je t'accompagne, en tant que coach
+                certifiée et passionnée, à définir tes objectifs et à tracer le
+                chemin vers la vie qui te fait vibrer.
               </p>
 
               <div className="flex items-center justify-center space-x-4">
@@ -52,7 +52,8 @@ const Hometest = () => {
                 </Button>
               </div>
             </div>
-            <div className="hidden overflow-hidden py-5 md:block md:col-span-4  z-30">
+            <div className="col-span-1"></div>
+            {/* <div className="hidden overflow-hidden py-5 md:block md:col-span-4  z-30">
               <Image
                 width={1000}
                 height={1000}
@@ -60,7 +61,7 @@ const Hometest = () => {
                 src="/icon.png"
                 alt=""
               />
-            </div>
+            </div> */}
           </div>
 
           <div className="relative mt-10  md:mt-14  py-16 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8 lg:py-20">
@@ -169,7 +170,7 @@ const Hometest = () => {
               style={{
                 background:
                   // "linear-gradient(106.89deg, rgb(240, 229, 207) 15.73%, rgb(253, 191, 96) 55.30%, rgba(232, 121, 249, 0.26) 56.49%, rgb(243, 215, 202) 115.91%)",
-                  "linear-gradient(135.89deg, rgb(64, 162, 227) 35.91%, rgb(155, 207, 83) 35% )",
+                  "linear-gradient(135.89deg, rgb(64, 162, 227) 35.91%, rgb(173, 136, 198) 35% )",
               }}
             ></div>
             <div className="z-30 max-w-xl mb-10 md:mx-auto sm:text-center lg:max-w-2xl md:mb-12">
@@ -240,7 +241,7 @@ const Hometest = () => {
               className="absolute top-20 inset-0 blur-[118px] max-w-lg h-[300px] mx-auto sm:max-w-3xl sm:h-[300px]"
               style={{
                 background:
-                  "linear-gradient(135.89deg, rgb(64, 162, 227) 35.91%, rgb(155, 207, 83) 35% )",
+                  "linear-gradient(135.89deg, rgb(64, 162, 227) 35.91%, rgb(173, 136, 198) 35% )",
               }}
             ></div>
             <MultipleItems />

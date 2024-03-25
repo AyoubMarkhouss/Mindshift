@@ -5,9 +5,16 @@ import { Button } from "@nextui-org/react";
 import Link from "next/link";
 import MultipleItems from "@/components/Carousel";
 import Scrolltop from "@/components/Scrolltop";
+import Head from "next/head";
 const expertises = () => {
   return (
     <>
+      <Head>
+        <meta name="description" content="" />
+        <link rel="icon" href="/icon.png" />
+        <title>Mindshift coaching - Expertises</title>
+        <meta property="og:image" content="/logo2.png" />
+      </Head>
       <TracingBeam>
         <Scrolltop />
         <div
@@ -19,18 +26,18 @@ const expertises = () => {
               className="absolute top-20 inset-0 blur-[140px] max-w-lg h-[800px] mx-auto sm:max-w-3xl sm:h-[550px]"
               style={{
                 background:
-                  "linear-gradient(135.89deg, rgb(64, 162, 227) 25.91%, rgb(155, 207, 83) 45% )",
+                  "linear-gradient(135.89deg, rgb(64, 162, 227) 25.91%, rgb(173, 136, 198) 45% )",
               }}
             ></div>
-            <div className="md:pt-7 col-span-4 sm:gap-6 flex flex-col text-center z-30">
+            <div className="col-span-1"></div>
+            <div className="lg:pt-20 col-span-6 sm:gap-6 flex flex-col text-center z-30">
               <h5 className="semibold mb-4 text-5xl sm:text-7xl font-extrabold leading-none">
                 Mes expertises
               </h5>
-              <p className=" mb-6 text-gray-700">
-                Sed ut perspiciatis unde omnis iste natus error sit voluptatem
-                accusantium doloremque laudantium, totam rem aperiam, eaque ipsa
-                quae explicabo. Sed ut perspiciatis unde omnis iste natus error
-                sit voluptatem totam rem aperiam, eaque ipsa quae explicabo.
+              <p className=" mb-6 text-gray-700 text-xl">
+                Je t'aide à reprogrammer ton cerveau pour plus de bonheur et de
+                maîtrise. Gère tes émotions, renforce ta confiance et construis
+                des relations saines.
               </p>
 
               <div className="flex items-center justify-center space-x-4">
@@ -47,7 +54,8 @@ const expertises = () => {
                 </Button>
               </div>
             </div>
-            <div className="hidden overflow-hidden py-5 md:block md:col-span-4  z-30">
+            <div className="col-span-1"></div>
+            {/* <div className="hidden overflow-hidden py-5 md:block md:col-span-4  z-30">
               <Image
                 width={1000}
                 height={1000}
@@ -55,7 +63,7 @@ const expertises = () => {
                 src="/icon.png"
                 alt=""
               />
-            </div>
+            </div> */}
           </div>
 
           <div className="grid  gap-10 lg:grid-cols-8 z-50 ">
@@ -103,7 +111,7 @@ const expertises = () => {
               style={{
                 background:
                   // "linear-gradient(126.89deg, rgb(240, 229, 207) 35.73%, rgb(253, 191, 96) 65.30%, rgb(127, 39, 255) 25.91% ,rgb(159, 112, 253) 10.49%)",
-                  "linear-gradient(135.89deg, rgb(64, 162, 227) 35.91%, rgb(155, 207, 83) 35% )",
+                  "linear-gradient(135.89deg, rgb(64, 162, 227) 35.91%, rgb(173, 136, 198) 35% )",
               }}
             ></div>
             <div className="lg:shadow-2xl  ld:bg-slate-50/30 lg:drop-shadow-lg relative z-30 lg:shadow-gray-500 lg:max-w-3xl lg:border-slate-50 lg:border-1 lg:p-10  lg:rounded-[60px]">
@@ -239,7 +247,7 @@ const expertises = () => {
               style={{
                 background:
                   // "linear-gradient(126.89deg, rgb(240, 229, 207) 35.73%, rgb(253, 191, 96) 65.30%, rgb(127, 39, 255) 25.91% ,rgb(159, 112, 253) 10.49%)"
-                  "linear-gradient(135.89deg, rgb(64, 162, 227) 35.91%, rgb(155, 207, 83) 35% )",
+                  "linear-gradient(135.89deg, rgb(64, 162, 227) 35.91%, rgb(173, 136, 198) 35% )",
               }}
             ></div>
             <div className="lg:shadow-2xl lg:bg-slate-50/30 lg:drop-shadow-lg relative z-30 lg:shadow-gray-500 lg:max-w-3xl  lg:p-10 lg:border-slate-50 lg:border-1 lg:rounded-[60px]">

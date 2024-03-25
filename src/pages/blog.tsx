@@ -1,11 +1,18 @@
 import { BentoGridDemo } from "@/components/Bloggrid";
 import Scrolltop from "@/components/Scrolltop";
 import { TracingBeam } from "@/components/ui/tracing-beam";
+import Head from "next/head";
 import React from "react";
 
 const blog = () => {
   return (
     <>
+      <Head>
+        <meta name="description" content="" />
+        <link rel="icon" href="/icon.png" />
+        <title>Mindshift coaching - Blog</title>
+        <meta property="og:image" content="/logo2.png" />
+      </Head>
       <TracingBeam>
         <Scrolltop />
         <div

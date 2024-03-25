@@ -8,10 +8,17 @@ import { Service2 } from "@/components/service2";
 import { Service3 } from "@/components/service3";
 import Steps from "@/components/Steps";
 import Scrolltop from "@/components/Scrolltop";
+import Head from "next/head";
 
 const services = () => {
   return (
     <>
+      <Head>
+        <meta name="description" content="" />
+        <link rel="icon" href="/icon.png" />
+        <title>Mindshift coaching - Services</title>
+        <meta property="og:image" content="/logo2.png" />
+      </Head>
       <TracingBeam>
         <Scrolltop />
         <div
@@ -23,18 +30,17 @@ const services = () => {
               className="absolute top-20 inset-0 blur-[140px] max-w-lg h-[800px] mx-auto sm:max-w-3xl sm:h-[550px]"
               style={{
                 background:
-                  "linear-gradient(135.89deg, rgb(64, 162, 227) 25.91%, rgb(155, 207, 83) 45% )",
+                  "linear-gradient(135.89deg, rgb(64, 162, 227) 25.91%, rgb(173, 136, 198) 45% )",
               }}
             ></div>
-            <div className="md:pt-7 col-span-4 sm:gap-6 flex flex-col text-center z-30">
+            <div className="col-span-1"></div>
+            <div className="lg:pt-16 col-span-6 sm:gap-6 flex flex-col text-center z-30">
               <h5 className="semibold mb-4 text-5xl sm:text-7xl font-extrabold leading-none">
-                Mes coaching
+                Mes coachings
               </h5>
-              <p className=" mb-6 text-gray-700">
-                Sed ut perspiciatis unde omnis iste natus error sit voluptatem
-                accusantium doloremque laudantium, totam rem aperiam, eaque ipsa
-                quae explicabo. Sed ut perspiciatis unde omnis iste natus error
-                sit voluptatem totam rem aperiam, eaque ipsa quae explicabo.
+              <p className=" mb-6 text-gray-700 text-xl">
+                Un accompagnement holistique et personnalisé qui prend en compte
+                toutes les dimensions de ta vie
               </p>
 
               <div className="flex items-center justify-center space-x-4">
@@ -51,7 +57,7 @@ const services = () => {
                 </Button>
               </div>
             </div>
-            <div className="hidden overflow-hidden py-5 md:block md:col-span-4  z-30">
+            {/* <div className="hidden overflow-hidden py-5 md:block md:col-span-4  z-30">
               <Image
                 width={1000}
                 height={1000}
@@ -59,7 +65,8 @@ const services = () => {
                 src="/icon.png"
                 alt=""
               />
-            </div>
+            </div> */}
+            <div className="col-span-1"></div>
           </div>
 
           <div className="grid md:pt-20 grid-cols-1 lg:grid-cols-3 w-full">

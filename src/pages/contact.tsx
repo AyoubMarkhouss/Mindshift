@@ -3,6 +3,7 @@ import emailjs from "@emailjs/browser";
 import React, { useRef } from "react";
 import { ToastContainer, toast } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
+import Head from "next/head";
 
 const Contact: React.FC = () => {
   const form = useRef(null);
@@ -27,29 +28,36 @@ const Contact: React.FC = () => {
     e.target.reset();
   };
   return (
-    <div
-      className="contact mx-auto max-w-screen-xl relative min-h-screen"
-      id="contact"
-    >
+    <>
+      <Head>
+        <meta name="description" content="" />
+        <link rel="icon" href="/icon.png" />
+        <title>Mindshift coaching - Contact</title>
+        <meta property="og:image" content="/logo2.png" />
+      </Head>
       <div
-        className="absolute top-20 inset-0 blur-[118px] max-w-lg h-[800px] mx-auto sm:max-w-3xl sm:h-[500px]"
-        style={{
-          background:
-            "linear-gradient(126.89deg, rgb(240, 229, 207) 35.73%, rgb(253, 191, 96) 65.30%, rgb(127, 39, 255) 25.91% ,rgb(159, 112, 253) 10.49%)",
-        }}
-      ></div>
-      <div className="container px-2 sm:px-6 md:px-8 lg:px-14 xl:px-36 mx-auto">
-        <div className="lg:flex lg:items-center lg:-mx-6">
-          <div className="relative lg:w-1/2 lg:mx-6 m-6">
-            <h1 className="semibold z-30 text-4xl md:font-semibold text-white  lg:text-7xl ">
-              Discutons !
-            </h1>
-            <div className="">
-              <span className="inline-block w-36 md:w-52 h-1 bg-black rounded-full"></span>
-              <span className="inline-block w-14 h-1 ml-1 bg-black rounded-full"></span>
-              <span className="inline-block w-5 h-1 ml-1 bg-black rounded-full"></span>
-            </div>
-            {/* 
+        className="contact mx-auto max-w-screen-xl relative min-h-screen"
+        id="contact"
+      >
+        <div
+          className="absolute top-20 inset-0 blur-[118px] max-w-lg h-[800px] mx-auto sm:max-w-3xl sm:h-[500px]"
+          style={{
+            background:
+              "linear-gradient(135.89deg, rgb(64, 162, 227) 35.91%, rgb(173, 136, 198) 35% )",
+          }}
+        ></div>
+        <div className="container px-2 sm:px-6 md:px-8 lg:px-14 xl:px-36 mx-auto">
+          <div className="lg:flex lg:items-center lg:-mx-6">
+            <div className="relative lg:w-1/2 lg:mx-6 m-6">
+              <h1 className="semibold z-30 text-4xl md:font-semibold text-white  lg:text-7xl ">
+                Discutons !
+              </h1>
+              <div className="">
+                <span className="inline-block w-36 md:w-52 h-1 bg-black rounded-full"></span>
+                <span className="inline-block w-14 h-1 ml-1 bg-black rounded-full"></span>
+                <span className="inline-block w-5 h-1 ml-1 bg-black rounded-full"></span>
+              </div>
+              {/* 
             <div className="mt-6 space-y-8 md:mt-8 ">
               <p className="flex items-start -mx-2">
                 <svg
@@ -119,7 +127,7 @@ const Contact: React.FC = () => {
                 </span>
               </p>
             </div> */}
-            {/* 
+              {/* 
             <div className="mt-6 w-80 md:mt-8 flex items-center">
               <h3 className="text-lightviolet text-lg">Suis-moi</h3>
               <div className="flex ">
@@ -141,77 +149,78 @@ const Contact: React.FC = () => {
                 </Link>
               </div>
             </div> */}
-          </div>
+            </div>
 
-          <div className="mt-8 lg:w-1/2 lg:mx-6 m-5 z-30">
-            <div className="w-full p-3 md:px-8 md:py-10 mx-auto overflow-hidden md:bg-slate-50/70 bg-slate-50/70 backdrop-blur-md shadow-lg border-slate-50 rounded-[36px]  lg:max-w-xl ">
-              <div className="mt-3">
-                <form className="text-darkbg" ref={form} onSubmit={sendmail}>
-                  <div className="grid md:grid-cols-2 gap-4">
-                    <div className="">
-                      <label>Nom complet</label>
+            <div className="mt-8 lg:w-1/2 lg:mx-6 m-5 z-30">
+              <div className="w-full p-3 md:px-8 md:py-10 mx-auto overflow-hidden md:bg-slate-50/40 bg-slate-50/70 backdrop-blur-md shadow-lg border-slate-50 rounded-[36px]  lg:max-w-xl ">
+                <div className="mt-3">
+                  <form className="text-darkbg" ref={form} onSubmit={sendmail}>
+                    <div className="grid md:grid-cols-2 gap-4">
+                      <div className="">
+                        <label>Nom complet</label>
+                        <input
+                          className="mt-1 block w-full rounded-lg border border-solid border-gray-300 bg-white bg-clip-padding px-3 py-2 font-normal text-gray-700 outline-none transition-all placeholder:text-gray-500 focus:border-orange"
+                          name="full_name"
+                          id="full_name"
+                          required
+                        />
+                      </div>
+
+                      <div className="mb-3">
+                        <label>Téléphone</label>
+                        <input
+                          className="mt-1 block w-full rounded-lg border border-solid border-gray-300 bg-white bg-clip-padding px-3 py-2 font-normal text-gray-700 outline-none transition-all placeholder:text-gray-500 focus:border-orange"
+                          name="phone"
+                          id="phone"
+                          type="tel"
+                          required
+                        />
+                      </div>
+                    </div>
+                    <div className="mb-3">
+                      <label>E-mail</label>
                       <input
                         className="mt-1 block w-full rounded-lg border border-solid border-gray-300 bg-white bg-clip-padding px-3 py-2 font-normal text-gray-700 outline-none transition-all placeholder:text-gray-500 focus:border-orange"
-                        name="full_name"
-                        id="full_name"
+                        name="user_email"
+                        id="email"
+                        type="email"
                         required
                       />
                     </div>
 
                     <div className="mb-3">
-                      <label>Téléphone</label>
-                      <input
+                      <label>Message</label>
+                      <textarea
                         className="mt-1 block w-full rounded-lg border border-solid border-gray-300 bg-white bg-clip-padding px-3 py-2 font-normal text-gray-700 outline-none transition-all placeholder:text-gray-500 focus:border-orange"
-                        name="phone"
-                        id="phone"
-                        type="tel"
+                        id="message"
+                        name="message"
+                        rows={4}
                         required
-                      />
+                      ></textarea>
                     </div>
-                  </div>
-                  <div className="mb-3">
-                    <label>E-mail</label>
-                    <input
-                      className="mt-1 block w-full rounded-lg border border-solid border-gray-300 bg-white bg-clip-padding px-3 py-2 font-normal text-gray-700 outline-none transition-all placeholder:text-gray-500 focus:border-orange"
-                      name="user_email"
-                      id="email"
-                      type="email"
-                      required
-                    />
-                  </div>
 
-                  <div className="mb-3">
-                    <label>Message</label>
-                    <textarea
-                      className="mt-1 block w-full rounded-lg border border-solid border-gray-300 bg-white bg-clip-padding px-3 py-2 font-normal text-gray-700 outline-none transition-all placeholder:text-gray-500 focus:border-orange"
-                      id="message"
-                      name="message"
-                      rows={4}
-                      required
-                    ></textarea>
-                  </div>
-
-                  <div className="mt-6 md:-mb-3 mb-2">
-                    <button
-                      className="w-full inline-flex justify-center rounded-md border border-transparent bg-black px-5 py-2.5 text-sm font-medium text-slate-50 hover:bg-lightviolet focus:outline-none focus-visible:ring-2 focus-visible:ring-orange focus-visible:ring-offset-2"
-                      type="submit"
-                    >
-                      Envoyer
-                    </button>
-                  </div>
-                </form>
+                    <div className="mt-6 md:-mb-3 mb-2">
+                      <button
+                        className="w-full inline-flex justify-center rounded-md border border-transparent bg-black px-5 py-2.5 text-sm font-medium text-slate-50 hover:bg-lightviolet focus:outline-none focus-visible:ring-2 focus-visible:ring-orange focus-visible:ring-offset-2"
+                        type="submit"
+                      >
+                        Envoyer
+                      </button>
+                    </div>
+                  </form>
+                </div>
               </div>
             </div>
           </div>
         </div>
+        <ToastContainer
+          position="bottom-right"
+          hideProgressBar={true}
+          theme="light"
+          autoClose={2000}
+        />
       </div>
-      <ToastContainer
-        position="bottom-right"
-        hideProgressBar={true}
-        theme="light"
-        autoClose={2000}
-      />
-    </div>
+    </>
   );
 };
 export default Contact;
