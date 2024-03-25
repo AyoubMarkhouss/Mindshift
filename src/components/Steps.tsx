@@ -229,7 +229,7 @@ const Steps = () => {
               src="/canapé.jpg"
             />
           </div>
-          <div className="absolute left-5 pt-5 sm:pt-0 md:top-[450px] md:left-32 ">
+          <div className="absolute left-6 pt-5 sm:pt-0 md:top-[450px] md:left-32 ">
             <Button
               as={Link}
               className="relative shadow-2xl shadow-slate-700 inline-flex h-12 overflow-hidden rounded-full p-[1px] focus:outline-none focus:ring-2 focus:ring-slate-400 focus:ring-offset-2 focus:ring-offset-slate-50"
