@@ -33,9 +33,9 @@ const Hometest = () => {
                 Mindshift Coaching
               </h5>
               <p className=" mb-6 text-gray-700 text-xl">
-                C'est la safe place où je t'accompagne, en tant que coach
-                certifiée et passionnée, à définir tes objectifs et à tracer le
-                chemin vers la vie qui te fait vibrer.
+                C&apos;est la safe place où je t&apos;accompagne, en tant que
+                coach certifiée et passionnée, à définir tes objectifs et à
+                tracer le chemin vers la vie qui te fait vibrer.
               </p>
 
               <div className="flex items-center justify-center space-x-4">

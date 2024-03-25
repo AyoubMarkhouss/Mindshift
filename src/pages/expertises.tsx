@@ -35,9 +35,9 @@ const expertises = () => {
                 Mes expertises
               </h5>
               <p className=" mb-6 text-gray-700 text-xl">
-                Je t'aide à reprogrammer ton cerveau pour plus de bonheur et de
-                maîtrise. Gère tes émotions, renforce ta confiance et construis
-                des relations saines.
+                Je t&apos;aide à reprogrammer ton cerveau pour plus de bonheur
+                et de maîtrise. Gère tes émotions, renforce ta confiance et
+                construis des relations saines.
               </p>
 
               <div className="flex items-center justify-center space-x-4">
