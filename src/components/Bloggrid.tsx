@@ -30,6 +30,7 @@ export function BentoGridDemo() {
           title={item.title}
           description={item.description}
           header={item.header}
+          href={item.href}
           className={i === 3 || i === 6 ? "md:col-span-2" : ""}
         />
       ))}
@@ -41,6 +42,7 @@ const Skeleton = () => (
 );
 const items = [
   {
+    href: "/contact",
     title: "The Dawn of Innovation",
     description: "Explore the birth of groundbreaking ideas and inventions.",
     header: (
@@ -54,6 +56,7 @@ const items = [
     ),
   },
   {
+    href: "/contact",
     title: "The Digital Revolution",
     description: "Dive into the transformative power of technology.",
     header: (
@@ -67,6 +70,7 @@ const items = [
     ),
   },
   {
+    href: "/contact",
     title: "The Art of Design",
     description: "Discover the beauty of thoughtful and functional design.",
     header: (
@@ -80,6 +84,7 @@ const items = [
     ),
   },
   {
+    href: "/contact",
     title: "The Power of Communication",
     description:
       "Understand the impact of effective communication in our lives.",
@@ -94,6 +99,7 @@ const items = [
     ),
   },
   {
+    href: "/contact",
     title: "The Pursuit of Knowledge",
     description: "Join the quest for understanding and enlightenment.",
     header: (
@@ -107,6 +113,7 @@ const items = [
     ),
   },
   {
+    href: "/contact",
     title: "The Joy of Creation",
     description: "Experience the thrill of bringing ideas to life.",
     header: (
@@ -120,6 +127,7 @@ const items = [
     ),
   },
   {
+    href: "/contact",
     title: "The Spirit of Adventure",
     description:
       " Embark on exciting journeys and thrilling discoveriesk on exciting journeys and thrilling discoveries. on exciting journeys and thrilling discoveries.EmbarkEmbark on exciting journeys and thrilling discoveries.EmbarkEmbark on exciting journeys and thrilling discoveries.EmbarkEmbark on exciting journeys and thrilling discoveries.EmbarkEmbark on exciting journeys and thrilling discoveries.Embark on exciting journeys and thrilling discoveries Embark on exciting journeys and thrilling discoveries Embark on exciting journeys and thrilling discoveries Embark on exciting journeys and thrilling discoveries Embark on exciting journeys and thrilling discoveries Embark on exciting journeys and thrilling discoveries",
