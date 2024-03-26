@@ -88,8 +88,15 @@ function MultipleItems() {
     <div className="slider-container ">
       <Slider {...settings}>
         <div className="max-w-[22rem] lg:h-72 h-full px-6 py-10 mt-16 bg-slate-50/30 backdrop-blur-md rounded-2xl border-1 border-black ">
-          <div className="relative flex justify-center -mt-24 md:justify-end">
-            <Msg className="object-cover w-28 h-28 " />
+          <div className="relative flex justify-center pb-3 -mt-[93px] md:justify-start">
+            {/* <Msg className="object-cover w-28 h-28 " /> */}
+            <Image
+              alt="testimonial"
+              src="/msgg.png"
+              className="object-cover w-20 h-20"
+              width={1000}
+              height={1000}
+            />
           </div>
           {/* 
           <h2 className="mt-2 text-xl font-semibold text-gray-800 dark:text-white md:mt-0">
@@ -105,8 +112,15 @@ function MultipleItems() {
           </p>
         </div>
         <div className="max-w-[22rem] lg:h-72 h-full px-6 py-10 mt-16 bg-slate-50/30 backdrop-blur-md rounded-2xl border-1 border-black ">
-          <div className="relative flex justify-center -mt-24 md:justify-end">
-            <Msg className="object-cover w-28 h-28 " />
+          <div className="relative flex justify-center pb-3 -mt-[93px] md:justify-start">
+            {/* <Msg className="object-cover w-28 h-28 " /> */}
+            <Image
+              alt="testimonial"
+              src="/msgg.png"
+              className="object-cover w-20 h-20"
+              width={1000}
+              height={1000}
+            />
           </div>
 
           {/* <h2 className="mt-2 text-xl font-semibold text-gray-800 dark:text-white md:mt-0">
@@ -122,8 +136,15 @@ function MultipleItems() {
           </p>
         </div>
         <div className="max-w-[22rem] lg:h-72 h-full px-6 py-10 mt-16 bg-slate-50/30 backdrop-blur-md rounded-2xl border-1 border-black ">
-          <div className="relative flex justify-center -mt-24 md:justify-end">
-            <Msg className="object-cover w-28 h-28 " />
+          <div className="relative flex justify-center pb-3 -mt-[93px] md:justify-start">
+            {/* <Msg className="object-cover w-28 h-28 " /> */}
+            <Image
+              alt="testimonial"
+              src="/msgg.png"
+              className="object-cover w-20 h-20"
+              width={1000}
+              height={1000}
+            />
           </div>
 
           {/* <h2 className="mt-2 text-xl font-semibold text-gray-800 dark:text-white md:mt-0">
@@ -139,8 +160,15 @@ function MultipleItems() {
         </div>
 
         <div className="max-w-[22rem] lg:h-72 h-full px-6 py-10 mt-16 bg-slate-50/30 backdrop-blur-md rounded-2xl border-1 border-black ">
-          <div className="relative flex justify-center -mt-24 md:justify-end">
-            <Msg className="object-cover w-28 h-28 " />
+          <div className="relative flex justify-center pb-3  -mt-[93px] md:justify-start">
+            {/* <Msg className="object-cover w-28 h-28 " /> */}
+            <Image
+              alt="testimonial"
+              src="/msgg.png"
+              className="object-cover w-20 h-20"
+              width={1000}
+              height={1000}
+            />
           </div>
 
           {/* <h2 className="mt-2 text-xl font-semibold text-gray-800 dark:text-white md:mt-0">
@@ -157,8 +185,15 @@ function MultipleItems() {
         </div>
 
         <div className="max-w-[22rem] lg:h-72 h-full px-6 py-10 mt-16 bg-slate-50/30 backdrop-blur-md rounded-2xl border-1 border-black ">
-          <div className="relative flex justify-center -mt-24 md:justify-end">
-            <Msg className="object-cover w-28 h-28 " />
+          <div className="relative flex justify-center pb-3 -mt-[93px] md:justify-start">
+            {/* <Msg className="object-cover w-28 h-28 " /> */}
+            <Image
+              alt="testimonial"
+              src="/msgg.png"
+              className="object-cover w-20 h-20"
+              width={1000}
+              height={1000}
+            />
           </div>
 
           {/* <h2 className="mt-2 text-xl font-semibold text-gray-800 dark:text-white md:mt-0">
@@ -176,8 +211,15 @@ function MultipleItems() {
         </div>
 
         <div className="max-w-[22rem] lg:h-72 h-full px-6 py-10 mt-16 bg-slate-50/30 backdrop-blur-md rounded-2xl border-1 border-black ">
-          <div className="relative flex justify-center -mt-24 md:justify-end">
-            <Msg className="object-cover w-28 h-28 " />
+          <div className="relative flex justify-center pb-3 -mt-[93px] md:justify-start">
+            {/* <Msg className="object-cover w-28 h-28 " /> */}
+            <Image
+              alt="testimonial"
+              src="/msgg.png"
+              className="object-cover w-20 h-20"
+              width={1000}
+              height={1000}
+            />
           </div>
 
           {/* <h2 className="mt-2 text-xl font-semibold text-gray-800 dark:text-white md:mt-0">

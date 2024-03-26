@@ -225,9 +225,9 @@ const expertises = () => {
                 émotionnel solide et durable. Grâce à cette expertise, tu vas
                 développer la capacité de prendre des décisions éclairées, de
                 favoriser des relations interpersonnelles épanouissantes, et de
-                vivre une vie plus saine et gratifiante. En embrassant
+                vivre une vie plus saine et gratifiante. <br /> En embrassant
                 pleinement ton intelligence émotionnelle, nous tricotons
-                ensemble le fil d&apos;une existence plus riche et équilibrée
+                ensemble le fil d&apos;une existence plus riche et équilibrée.
               </p>
             </div>
             <div className="col-span-8 md:col-span-4 md:pl-12 z-30">
@@ -276,7 +276,7 @@ const expertises = () => {
                         En développant ton intelligence émotionnelle, tu
                         affineras ta capacité à comprendre et à réagir aux
                         émotions des autres, favorisant des relations plus
-                        harmonieuses
+                        harmonieuses.
                       </p>
                     </div>
                   </div>
@@ -324,7 +324,7 @@ const expertises = () => {
                         En comprenant et en canalisant efficacement tes
                         émotions, tu développeras une vision claire de tes
                         objectifs, te donnant la force émotionnelle nécessaire
-                        pour les atteindre avec succès
+                        pour les atteindre avec succès.
                       </p>
                     </div>
                   </div>

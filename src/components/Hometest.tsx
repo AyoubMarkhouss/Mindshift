@@ -120,17 +120,17 @@ const Hometest = () => {
                     vraiment. Grâce à des techniques issues de la PNL et de
                     l&apos;intelligence émotionnelle, tu découvriras comment
                     gérer le quotidien avec plus de confiance et
-                    d&apos;authenticité. En travaillant ensemble, nous
+                    d&apos;authenticité. <br /> En travaillant ensemble, nous
                     alignerons tes aspirations avec tes actions, te permettant
                     de repartir avec un plan concret et des compétences que tu
-                    pourras utiliser dans toutes les facettes de ta vie. Mon
-                    engagement ne se limite pas à nos sessions ; je suis là pour
-                    t&apos;offrir un soutien continu. À la fin de notre
-                    parcours, tu auras non seulement élargi ta compréhension de
-                    toi-même, mais aussi acquis des outils tangibles pour
-                    naviguer plus sereinement dans ta vie quotidienne. Prêt à
-                    faire ce voyage de transformation ? Let&apos;s make the
-                    shift!
+                    pourras utiliser dans toutes les facettes de ta vie. <br />{" "}
+                    Mon engagement ne se limite pas à nos sessions ; je suis là
+                    pour t&apos;offrir un soutien continu. <br /> À la fin de
+                    notre parcours, tu auras non seulement élargi ta
+                    compréhension de toi-même, mais aussi acquis des outils
+                    tangibles pour naviguer plus sereinement dans ta vie
+                    quotidienne. <br /> Prêt à faire ce voyage de transformation
+                    ? Let&apos;s make the shift!
                   </p>
                 </div>
               </div>
