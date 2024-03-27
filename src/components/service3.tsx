@@ -19,7 +19,7 @@ export function Service3() {
               objectifs, et maintenir une dynamique positive. <br />• Avec un
               suivi régulier entre les sessions via WhatsApp, cet abonnement te
               garantit un soutien constant tout au long de ton parcours. <br />•
-              Et en prime, la première séance bilan est gratuite. <br />• Prêt à
+              Et en prime, la première séance bilan est gratuite. <br /> Prêt à
               faire de chaque mois une étape significative vers le changement
               positif ?
             </span>

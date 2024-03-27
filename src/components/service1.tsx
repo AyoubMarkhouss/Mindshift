@@ -18,7 +18,7 @@ export function Service1() {
               besoin spécifique. <br />• Que ce soit pour dépasser un obstacle,
               clarifier une situation ou obtenir des conseils pratiques, cette
               séance est conçue pour te fournir une impulsion immédiate vers le
-              changement positif. <br />• Prêt à faire de cette séance unique un
+              changement positif. <br /> Prêt à faire de cette séance unique un
               moment décisif dans ta progression ?
             </span>
           </div>

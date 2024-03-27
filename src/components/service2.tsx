@@ -24,7 +24,7 @@ export function Service2() {
               ainsi les progrès entre chaque étape. <br />• Au-delà d&apos;une
               simple assistance, c&apos;est une véritable aventure de
               transformation personnelle et professionnelle qui t&apos;attend.{" "}
-              <br />• Prêt à consacrer 8 semaines à la construction d&apos;une
+              <br /> Prêt à consacrer 8 semaines à la construction d&apos;une
               nouvelle vie ?
             </span>
           </div>
