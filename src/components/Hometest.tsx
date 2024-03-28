@@ -29,9 +29,9 @@ const Hometest = () => {
             ></div>
             <div className="col-span-1"></div>
             <div className=" col-span-6 sm:gap-6 flex flex-col text-center z-30">
-              <h5 className="semibold mb-4 text-5xl sm:text-7xl font-extrabold leading-none">
+              <h1 className="semibold mb-4 text-5xl sm:text-7xl font-extrabold leading-none">
                 Mindshift Coaching
-              </h5>
+              </h1>
               <p className=" mb-6 text-gray-700 text-xl">
                 C&apos;est la safe place où je t&apos;accompagne, en tant que
                 coach certifiée et passionnée, à définir tes objectifs et à
@@ -83,9 +83,9 @@ const Hometest = () => {
                     Qui suis-je ?
                   </p>
                 </div>
-                <h5 className="medium mb-3 text-3xl text-black font-extrabold leading-none sm:text-4xl">
+                <h3 className="medium mb-3 text-3xl text-black font-extrabold leading-none sm:text-4xl">
                   Bienvenue sur Mindshift,
-                </h5>
+                </h3>
                 <p className="mb-5 text-gray-800 text-justify">
                   l&apos;endroit où on entame ensemble ton parcours vers le
                   changement positif ! Je suis coach et formatrice, doublement

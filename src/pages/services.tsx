@@ -35,9 +35,9 @@ const services = () => {
             ></div>
             <div className="col-span-1"></div>
             <div className="lg:pt-16 col-span-6 sm:gap-6 flex flex-col text-center z-30">
-              <h5 className="semibold mb-4 text-5xl sm:text-7xl font-extrabold leading-none">
+              <h1 className="semibold mb-4 text-5xl sm:text-7xl font-extrabold leading-none">
                 Mes coachings
-              </h5>
+              </h1>
               <p className=" mb-6 text-gray-700 text-xl">
                 Un accompagnement holistique et personnalisé qui prend en compte
                 toutes les dimensions de ta vie

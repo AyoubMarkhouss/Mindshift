@@ -31,9 +31,9 @@ const expertises = () => {
             ></div>
             <div className="col-span-1"></div>
             <div className="lg:pt-20 col-span-6 sm:gap-6 flex flex-col text-center z-30">
-              <h5 className="semibold mb-4 text-5xl sm:text-7xl font-extrabold leading-none">
+              <h1 className="semibold mb-4 text-5xl sm:text-7xl font-extrabold leading-none">
                 Mes expertises
-              </h5>
+              </h1>
               <p className=" mb-6 text-gray-700 text-xl">
                 Je t&apos;aide à reprogrammer ton cerveau pour plus de bonheur
                 et de maîtrise. Gère tes émotions, renforce ta confiance et
@@ -75,9 +75,9 @@ const expertises = () => {
               }}
             ></div> */}
             <div className="col-span-8 z-30">
-              <h1 className="semibold text-center text-4xl md:text-6xl">
+              <h2 className="semibold text-center text-4xl md:text-6xl">
                 La programmation neuro-linguistique
-              </h1>
+              </h2>
             </div>
             <div className=" col-span-8 lg:col-span-4 z-30">
               <Image
@@ -116,9 +116,9 @@ const expertises = () => {
             ></div>
             <div className="lg:shadow-2xl  ld:bg-slate-50/30 lg:drop-shadow-lg relative z-30 lg:shadow-gray-500 lg:max-w-3xl lg:border-slate-50 lg:border-1 lg:p-10  lg:rounded-[60px]">
               <div className="text-center flex justify-center items-center">
-                <h1 className="semibold pb-5 text-3xl md:text-6xl">
+                <h2 className="semibold pb-5 text-3xl md:text-6xl">
                   3 Bénifices de la PNL
-                </h1>
+                </h2>
               </div>
               <div className="grid max-w-2xl mx-auto">
                 <div className="flex">
@@ -210,9 +210,9 @@ const expertises = () => {
 
           <div className="grid  gap-10 lg:grid-cols-8 z-50">
             <div className="col-span-8 z-30">
-              <h1 className="semibold text-center text-5xl md:text-6xl">
+              <h2 className="semibold text-center text-5xl md:text-6xl">
                 L&apos;intelligence émotionnelle
-              </h1>
+              </h2>
             </div>
 
             <div className="col-span-8 md:pt-10 md:col-span-4 sm:gap-6 flex flex-col z-30">
@@ -252,9 +252,9 @@ const expertises = () => {
             ></div>
             <div className="lg:shadow-2xl lg:bg-slate-50/30 lg:drop-shadow-lg relative z-30 lg:shadow-gray-500 lg:max-w-3xl  lg:p-10 lg:border-slate-50 lg:border-1 lg:rounded-[60px]">
               <div className="text-center flex justify-center items-center">
-                <h1 className="semibold pb-5 text-4xl md:text-5xl">
+                <h2 className="semibold pb-5 text-4xl md:text-5xl">
                   3 Bénifices de l&apos;intelligence émotionnelle
-                </h1>
+                </h2>
               </div>
               <div className="grid max-w-2xl mx-auto">
                 <div className="flex">
