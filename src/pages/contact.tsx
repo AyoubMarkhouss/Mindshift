@@ -31,7 +31,7 @@ const Contact: React.FC = () => {
     <>
       <Head>
         <meta name="description" content="" />
-        <link rel="icon" href="/icon.png" />
+        <link rel="icon" href="/favicon.ico" />
         <title>Mindshift coaching - Contact</title>
         <meta property="og:image" content="/logo2.png" />
       </Head>

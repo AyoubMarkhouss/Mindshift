@@ -11,7 +11,7 @@ const expertises = () => {
     <>
       <Head>
         <meta name="description" content="" />
-        <link rel="icon" href="/icon.png" />
+        <link rel="icon" href="/favicon.ico" />
         <title>Mindshift coaching - Expertises</title>
         <meta property="og:image" content="/logo2.png" />
       </Head>

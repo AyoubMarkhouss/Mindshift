@@ -48,7 +48,7 @@ const items = [
     header: (
       <Image
         alt=""
-        src="/coaching.jpg"
+        src="/canapé.jpg"
         height={1000}
         width={1000}
         className="h-60"
@@ -62,7 +62,7 @@ const items = [
     header: (
       <Image
         alt=""
-        src="/coaching2.jpg"
+        src="/canapé.jpg"
         height={1000}
         width={1000}
         className="h-60"
@@ -76,7 +76,7 @@ const items = [
     header: (
       <Image
         alt=""
-        src="/ppl.jpeg"
+        src="/canapé.jpg"
         height={1000}
         width={1000}
         className="h-60 object-cover "
@@ -91,7 +91,7 @@ const items = [
     header: (
       <Image
         alt=""
-        src="/coaching.jpg"
+        src="/canapé.jpg"
         height={1000}
         width={1000}
         className="h-60 object-cover"
@@ -105,7 +105,7 @@ const items = [
     header: (
       <Image
         alt=""
-        src="/coaching.jpg"
+        src="/canapé.jpg"
         height={1000}
         width={1000}
         className="h-60 "
@@ -119,7 +119,7 @@ const items = [
     header: (
       <Image
         alt=""
-        src="/coaching.jpg"
+        src="/canapé.jpg"
         height={1000}
         width={1000}
         className="h-60 "
@@ -134,7 +134,7 @@ const items = [
     header: (
       <Image
         alt=""
-        src="/coaching.jpg"
+        src="/canapé.jpg"
         height={1000}
         width={1000}
         className="h-60 object-cover"

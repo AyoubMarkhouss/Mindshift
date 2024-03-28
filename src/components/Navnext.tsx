@@ -70,7 +70,7 @@ export default function Navnext() {
 
       <NavbarContent className="hidden sm:flex gap-3 " justify="center">
         <NavbarItem>
-          <Button as={Link} className="bg-transparent text-xl" href="/">
+          <Button as={Link} className="bg-transparent text-xl" href="/" >
             À propos
           </Button>
         </NavbarItem>
