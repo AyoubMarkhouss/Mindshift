@@ -132,11 +132,11 @@ const B1 = () => {
         </p>
         <br />
         <p>
-          L&apos;IE est bien plus qu&apos;une simple "soft skill". C&apos;est
-          une compétence essentielle pour le succès et le bien-être dans tous
-          les domaines de la vie. Des études ont montré que les personnes ayant
-          une IE élevée sont plus heureuses, plus saines et plus performantes
-          dans leur vie personnelle et professionnelle.
+          L&apos;IE est bien plus qu&apos;une simple &quot;soft skill&quot;.
+          C&apos;est une compétence essentielle pour le succès et le bien-être
+          dans tous les domaines de la vie. Des études ont montré que les
+          personnes ayant une IE élevée sont plus heureuses, plus saines et plus
+          performantes dans leur vie personnelle et professionnelle.
         </p>
 
         <br />
