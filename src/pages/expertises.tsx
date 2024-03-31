@@ -10,7 +10,11 @@ const expertises = () => {
   return (
     <>
       <Head>
-        <meta name="description" content="" />
+        <meta
+          name="description"
+          content=" Votre coach certifiée vous accompagne dans votre développement personnel et professionnel grâce à la PNL et à l'intelligence émotionnelle. Développez votre confiance en soi, améliorez vos relations et développez vos compétences.
+"
+        />
         <link rel="icon" href="/favicon.ico" />
         <title>Mindshift coaching - Expertises</title>
         <meta property="og:image" content="/logo2.png" />

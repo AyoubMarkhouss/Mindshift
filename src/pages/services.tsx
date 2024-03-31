@@ -14,7 +14,10 @@ const services = () => {
   return (
     <>
       <Head>
-        <meta name="description" content="" />
+        <meta
+          name="description"
+          content="Découvrez les différentes formules de coaching individuel proposées par Mindshift. Coaching personnalisé pour vous aider à atteindre vos objectifs personnels et professionnels. "
+        />
         <link rel="icon" href="/favicon.ico" />
         <title>Mindshift coaching - Services</title>
         <meta property="og:image" content="/logo2.png" />
