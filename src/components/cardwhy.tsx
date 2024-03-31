@@ -3,8 +3,7 @@
 import Image from "next/image";
 import React from "react";
 import { CardBody, CardContainer, CardItem } from "./ui/3d-card";
-import Flower from "./icons/Flower";
-import Questionmark from "./icons/Questionmark";
+
 
 export function Cardwhy() {
   return (
