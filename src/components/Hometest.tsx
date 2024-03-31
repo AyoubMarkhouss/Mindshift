@@ -7,8 +7,7 @@ import { Cardtwo } from "./cardtwo";
 import { Cardthree } from "./cardthree";
 import Image from "next/image";
 import { Cardwhy } from "./cardwhy";
-import Flower2 from "./icons/Flower2";
-import Flower from "./icons/Flower";
+
 import { Faq } from "./Faq";
 import MultipleItems from "./Carousel";
 import Scrolltop from "./Scrolltop";
