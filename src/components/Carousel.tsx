@@ -7,7 +7,7 @@ import Link from "next/link";
 import style from "styled-jsx/style";
 import Cheveronright from "./icons/Cheveronright";
 import Cheveronleft from "./icons/Cheveronleft";
-import Msg from "./icons/Msg";
+
 
 function SampleNextArrow(props: {
   className?: string;
